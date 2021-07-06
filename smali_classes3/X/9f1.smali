@@ -1,0 +1,25 @@
+.class public final LX/9f1;
+.super LX/2BF;
+.source ""
+
+
+# direct methods
+.method public constructor <init>(Landroid/view/View;)V
+    .locals 1
+
+    const-string v0, "itemView"
+
+    invoke-static {p1, v0}, LX/0nm;->A07(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-direct {p0, p1}, LX/2BF;-><init>(Landroid/view/View;)V
+
+    invoke-virtual {p1}, Landroid/view/View;->getTag()Ljava/lang/Object;
+
+    move-result-object v0
+
+    instance-of v0, v0, LX/9j3;
+
+    invoke-static {v0}, LX/00f;->A03(Z)V
+
+    return-void
+.end method

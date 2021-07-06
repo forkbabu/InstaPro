@@ -1,0 +1,674 @@
+{
+  "_signature": "// @generated _GENERATED_GRAPHQL_ Created by rebuild-graphql/incremental-persist",
+  "data": {
+    "BindCreditCard": {
+      "OSSPersistId": "3563144610417053",
+      "usecase": null
+    },
+    "CategoryTypeaheadQuery": {
+      "OSSPersistId": "3272650642828024",
+      "usecase": null
+    },
+    "CoWatchCatalogQuery": {
+      "OSSPersistId": "3772905556104632",
+      "usecase": null
+    },
+    "CoWatchMediaSyncContentQuery": {
+      "OSSPersistId": "3853433921406272",
+      "usecase": null
+    },
+    "ComponentDataMutation": {
+      "OSSPersistId": "3912325098888308",
+      "usecase": null
+    },
+    "CreateDigitalContentPurchasedMutation": {
+      "OSSPersistId": "2980142332069531",
+      "usecase": null
+    },
+    "CreateIGNativeRoom": {
+      "OSSPersistId": "3800948353332147",
+      "usecase": null
+    },
+    "CreatePayContainerMutation": {
+      "OSSPersistId": "3973953459291678",
+      "usecase": null
+    },
+    "CreatePaymentContainerMutation": {
+      "OSSPersistId": "5011281565578934",
+      "usecase": null
+    },
+    "CreatorAndBusinessSuggestedCategoriesQuery": {
+      "OSSPersistId": "4154307361308312",
+      "usecase": null
+    },
+    "CreatorCategories": {
+      "OSSPersistId": "2807358102632702",
+      "usecase": null
+    },
+    "DiverseOwnedBusiness": {
+      "OSSPersistId": "4675360129171387",
+      "usecase": null
+    },
+    "DiverseOwnedBusinessDeleteMutation": {
+      "OSSPersistId": "2685061794928579",
+      "usecase": null
+    },
+    "DiverseOwnedBusinessUpdateMutation": {
+      "OSSPersistId": "3388621947834808",
+      "usecase": null
+    },
+    "EndIGRoomCall": {
+      "OSSPersistId": "3796786617074887",
+      "usecase": null
+    },
+    "EnterIGRoomMutation": {
+      "OSSPersistId": "4212848372062037",
+      "usecase": null
+    },
+    "FBPayAccount": {
+      "OSSPersistId": "3039776809443557",
+      "usecase": null
+    },
+    "FBPayAddAddressMutation": {
+      "OSSPersistId": "3619131021528770",
+      "usecase": null
+    },
+    "FBPayAddEmailMutation": {
+      "OSSPersistId": "3472626599510064",
+      "usecase": null
+    },
+    "FBPayAddPhoneMutation": {
+      "OSSPersistId": "3987904841261384",
+      "usecase": null
+    },
+    "FBPayAddressQuery": {
+      "OSSPersistId": "5545260978833176",
+      "usecase": null
+    },
+    "FBPayAuthTicketQuery": {
+      "OSSPersistId": "3807796682636103",
+      "usecase": null
+    },
+    "FBPayComponentDataQuery": {
+      "OSSPersistId": "3820381484664487",
+      "usecase": null
+    },
+    "FBPayContactInfoQuery": {
+      "OSSPersistId": "5460385333986646",
+      "usecase": null
+    },
+    "FBPayCreateAuthTicketBasedFactorMutation": {
+      "OSSPersistId": "3754562114601933",
+      "usecase": null
+    },
+    "FBPayCreatePINMutation": {
+      "OSSPersistId": "5014414951965471",
+      "usecase": null
+    },
+    "FBPayDeleteAddressMutation": {
+      "OSSPersistId": "3591158254309584",
+      "usecase": null
+    },
+    "FBPayDeleteAuthTicketMutation": {
+      "OSSPersistId": "3639975209424982",
+      "usecase": null
+    },
+    "FBPayDeleteEmailMutation": {
+      "OSSPersistId": "3887368821322766",
+      "usecase": null
+    },
+    "FBPayDeletePhoneMutation": {
+      "OSSPersistId": "3455839031208309",
+      "usecase": null
+    },
+    "FBPayDisablePINMutation": {
+      "OSSPersistId": "3288144401285304",
+      "usecase": null
+    },
+    "FBPayEnablePINMutation": {
+      "OSSPersistId": "3960626557355449",
+      "usecase": null
+    },
+    "FBPayGetServerEncryptionKeyMutation": {
+      "OSSPersistId": "3721683351242957",
+      "usecase": null
+    },
+    "FBPayLinkAccountMutation": {
+      "OSSPersistId": "4631485313593216",
+      "usecase": null
+    },
+    "FBPayLinkBottomSheetQuery": {
+      "OSSPersistId": "3831109140242103",
+      "usecase": null
+    },
+    "FBPayPaypalConsentBottomSheetQuery": {
+      "OSSPersistId": "3553112358144978",
+      "usecase": null
+    },
+    "FBPayUnlinkAccountMutation": {
+      "OSSPersistId": "3224890884307206",
+      "usecase": null
+    },
+    "FBPayUnlinkBottomSheetQuery": {
+      "OSSPersistId": "3602544709813442",
+      "usecase": null
+    },
+    "FBPayUpdateAddressMutation": {
+      "OSSPersistId": "4522946757719378",
+      "usecase": null
+    },
+    "FBPayUpdateEmailMutation": {
+      "OSSPersistId": "3940125826082422",
+      "usecase": null
+    },
+    "FBPayUpdatePhoneMutation": {
+      "OSSPersistId": "3573618356080057",
+      "usecase": null
+    },
+    "FBPayVerifyFactorMutation": {
+      "OSSPersistId": "3625871314164906",
+      "usecase": null
+    },
+    "FBProductAndShopCrossTaggingEligibility": {
+      "OSSPersistId": "2745648648871854",
+      "usecase": null
+    },
+    "FBProductCrossTaggingEligibility": {
+      "OSSPersistId": "2922651817849315",
+      "usecase": null
+    },
+    "FBShopCrossTaggingEligibility": {
+      "OSSPersistId": "5222607664431892",
+      "usecase": null
+    },
+    "FbpayConvertPaypalBaToCib": {
+      "OSSPersistId": "3045888848862060",
+      "usecase": null
+    },
+    "FetchCapabilityLatestVersionQuery": {
+      "OSSPersistId": "4704499779625302",
+      "usecase": null
+    },
+    "FetchCapabilityMetadataQuery": {
+      "OSSPersistId": "4767499729989582",
+      "usecase": null
+    },
+    "FxIGAccountsCenterServiceQuery": {
+      "OSSPersistId": "4013628155327790",
+      "usecase": null
+    },
+    "FxIGMasterAccountQuery": {
+      "OSSPersistId": "3670024113061515",
+      "usecase": null
+    },
+    "FxUpSellTargeting": {
+      "OSSPersistId": "3899721586721370",
+      "usecase": null
+    },
+    "GetEncryptedCardNumber": {
+      "OSSPersistId": "3446136838741966",
+      "usecase": null
+    },
+    "IABAutofillData": {
+      "OSSPersistId": "2002307059877940",
+      "usecase": null
+    },
+    "IABAutofillDeleteData": {
+      "OSSPersistId": "1759685834135025",
+      "usecase": null
+    },
+    "IABAutofillSaveData": {
+      "OSSPersistId": "2336171079768772",
+      "usecase": null
+    },
+    "IGARClassQuery": {
+      "OSSPersistId": "2334014673389832",
+      "usecase": null
+    },
+    "IGAREffectCollectionQuery": {
+      "OSSPersistId": "3790223147690898",
+      "usecase": null
+    },
+    "IGAREffectsByIdQuery": {
+      "OSSPersistId": "5042471872489403",
+      "usecase": null
+    },
+    "IGAREffectsForProfileQuery": {
+      "OSSPersistId": "3659078400847519",
+      "usecase": null
+    },
+    "IGAREffectsGalleryCategoriesQuery": {
+      "OSSPersistId": "5851301061567138",
+      "usecase": null
+    },
+    "IGAREffectsGalleryForProfileQuery": {
+      "OSSPersistId": "3449062185193113",
+      "usecase": null
+    },
+    "IGAREffectsGalleryQuery": {
+      "OSSPersistId": "3694958207291387",
+      "usecase": null
+    },
+    "IGAREffectsSearchQuery": {
+      "OSSPersistId": "5046850365356260",
+      "usecase": null
+    },
+    "IGAudioClipTranscription": {
+      "OSSPersistId": "3436161749769290",
+      "usecase": null
+    },
+    "IGContentFilterDictionaryGetQuery": {
+      "OSSPersistId": "3950164398337410",
+      "usecase": null
+    },
+    "IGContentFilterDictionaryLookupQuery": {
+      "OSSPersistId": "3954063244710705",
+      "usecase": null
+    },
+    "IGFBPayAddCreditCard": {
+      "OSSPersistId": "2649667365136690",
+      "usecase": null
+    },
+    "IGFBPayAddShopPayQuery": {
+      "OSSPersistId": "5980908188602100",
+      "usecase": null
+    },
+    "IGFBPayAddressQuery": {
+      "OSSPersistId": "3573718412691024",
+      "usecase": null
+    },
+    "IGFBPayAuthFlowsContentQuery": {
+      "OSSPersistId": "3213504958703734",
+      "usecase": null
+    },
+    "IGFBPayAuthTicketQuery": {
+      "OSSPersistId": "3894991483849129",
+      "usecase": null
+    },
+    "IGFBPayCancelPayPalMutation": {
+      "OSSPersistId": "3221736427878471",
+      "usecase": null
+    },
+    "IGFBPayCompletePaypalLinkingMutation": {
+      "OSSPersistId": "3191551677563706",
+      "usecase": null
+    },
+    "IGFBPayCompleteShopPayInitMutation": {
+      "OSSPersistId": "3921486967919226",
+      "usecase": null
+    },
+    "IGFBPayContactInfoQuery": {
+      "OSSPersistId": "4437367463000834",
+      "usecase": null
+    },
+    "IGFBPayCreateAuthTicketBasedFactorMutation": {
+      "OSSPersistId": "3458591490892408",
+      "usecase": null
+    },
+    "IGFBPayCreatePINMutation": {
+      "OSSPersistId": "4721287234611861",
+      "usecase": null
+    },
+    "IGFBPayDeleteAuthTicketMutation": {
+      "OSSPersistId": "3071737849597369",
+      "usecase": null
+    },
+    "IGFBPayDisableCreditCard": {
+      "OSSPersistId": "3286524694711160",
+      "usecase": null
+    },
+    "IGFBPayDisablePINMutation": {
+      "OSSPersistId": "3544657908919466",
+      "usecase": null
+    },
+    "IGFBPayEnablePINMutation": {
+      "OSSPersistId": "3703315903011716",
+      "usecase": null
+    },
+    "IGFBPayExperienceEnabled": {
+      "OSSPersistId": "3801135729903457",
+      "usecase": null
+    },
+    "IGFBPayGetServerEncryptionKeyMutation": {
+      "OSSPersistId": "4605649856174854",
+      "usecase": null
+    },
+    "IGFBPayLinkAccountMutation": {
+      "OSSPersistId": "3725458604153423",
+      "usecase": null
+    },
+    "IGFBPayLinkBottomSheetQuery": {
+      "OSSPersistId": "3869750436390781",
+      "usecase": null
+    },
+    "IGFBPayOrderInfoSectionQuery": {
+      "OSSPersistId": "3106761556077787",
+      "usecase": null
+    },
+    "IGFBPayRemoveShopPayMutation": {
+      "OSSPersistId": "4602497499822921",
+      "usecase": null
+    },
+    "IGFBPayShareableAddressQuery": {
+      "OSSPersistId": "3461224173923470",
+      "usecase": null
+    },
+    "IGFBPayShareableContactInfoQuery": {
+      "OSSPersistId": "2268944259896892",
+      "usecase": null
+    },
+    "IGFBPayShareableTransactionsQuery": {
+      "OSSPersistId": "5016356218439061",
+      "usecase": null
+    },
+    "IGFBPaySharedAddAddressMutation": {
+      "OSSPersistId": "5291194004284923",
+      "usecase": null
+    },
+    "IGFBPaySharedAddCreditCardMutation": {
+      "OSSPersistId": "5933792136646758",
+      "usecase": null
+    },
+    "IGFBPaySharedAddEmailMutation": {
+      "OSSPersistId": "4332502923444848",
+      "usecase": null
+    },
+    "IGFBPaySharedAddPhoneMutation": {
+      "OSSPersistId": "3588233547952857",
+      "usecase": null
+    },
+    "IGFBPaySharedDeleteAddressMutation": {
+      "OSSPersistId": "3365073920266863",
+      "usecase": null
+    },
+    "IGFBPaySharedDeleteEmailMutation": {
+      "OSSPersistId": "3343774395714551",
+      "usecase": null
+    },
+    "IGFBPaySharedDeletePhoneMutation": {
+      "OSSPersistId": "3850897548272680",
+      "usecase": null
+    },
+    "IGFBPaySharedDisableCreditCardMutation": {
+      "OSSPersistId": "3821730967849746",
+      "usecase": null
+    },
+    "IGFBPaySharedUpdateAddressMutation": {
+      "OSSPersistId": "3918427778219188",
+      "usecase": null
+    },
+    "IGFBPaySharedUpdateCreditCardMutation": {
+      "OSSPersistId": "3670693156390796",
+      "usecase": null
+    },
+    "IGFBPaySharedUpdateEmailMutation": {
+      "OSSPersistId": "4548866488473906",
+      "usecase": null
+    },
+    "IGFBPaySharedUpdatePhoneMutation": {
+      "OSSPersistId": "5222383507834160",
+      "usecase": null
+    },
+    "IGFBPayShopPayInitLinkMutation": {
+      "OSSPersistId": "5364991926859288",
+      "usecase": null
+    },
+    "IGFBPayTransactionsQuery": {
+      "OSSPersistId": "4046944145332361",
+      "usecase": null
+    },
+    "IGFBPayUnlinkAccountMutation": {
+      "OSSPersistId": "3332530903533467",
+      "usecase": null
+    },
+    "IGFBPayUnlinkBottomSheetQuery": {
+      "OSSPersistId": "4644938265581354",
+      "usecase": null
+    },
+    "IGFBPayUpdateCreditCard": {
+      "OSSPersistId": "3648979838467659",
+      "usecase": null
+    },
+    "IGFBPayVerifyFactorMutation": {
+      "OSSPersistId": "3360818394006378",
+      "usecase": null
+    },
+    "IGFXCALServiceEnabled": {
+      "OSSPersistId": "3125018010882357",
+      "usecase": null
+    },
+    "IGFetchLDPTransactionToolSelectorApps": {
+      "OSSPersistId": "2506815206070488",
+      "usecase": null
+    },
+    "IGFullyDisconnectFbPagesMutation": {
+      "OSSPersistId": "3131323080272171",
+      "usecase": null
+    },
+    "IGFxIdentityManagementMutation": {
+      "OSSPersistId": "3345474525518296",
+      "usecase": null
+    },
+    "IGFxIdentityManagementQuery": {
+      "OSSPersistId": "3574344079312815",
+      "usecase": null
+    },
+    "IGFxLinkedAccountsQuery": {
+      "OSSPersistId": "4324170747611977",
+      "usecase": null
+    },
+    "IGFxNativeAuthTokenVerificationQuery": {
+      "OSSPersistId": "4176476149038774",
+      "usecase": null
+    },
+    "IGGetPayoutMethdodWithLinkedProductsQuery": {
+      "OSSPersistId": "3185353948234027",
+      "usecase": null
+    },
+    "IGIABAutofillSettings": {
+      "OSSPersistId": "3334156656683274",
+      "usecase": null
+    },
+    "IGIABAutofillUpdateSettingsMutation": {
+      "OSSPersistId": "3329969760428109",
+      "usecase": null
+    },
+    "IGIXTValidateTypes": {
+      "OSSPersistId": "3715905711829237",
+      "usecase": null
+    },
+    "IGPaymentsAccountDisabledRiskQuery": {
+      "OSSPersistId": "2897674770271335",
+      "usecase": null
+    },
+    "IGPaymentsCheckoutInformation": {
+      "OSSPersistId": "3668479819867248",
+      "usecase": null
+    },
+    "IGPayoutCreateFinancialEntity": {
+      "OSSPersistId": "3863588790355129",
+      "usecase": null
+    },
+    "IGPayoutCreatePayPalCredential": {
+      "OSSPersistId": "3462226127161082",
+      "usecase": null
+    },
+    "IGPayoutEditFinancialEntityMutation": {
+      "OSSPersistId": "5209430589131948",
+      "usecase": null
+    },
+    "IGPayoutGetFinancialEntityByAdmin": {
+      "OSSPersistId": "3040164256108475",
+      "usecase": null
+    },
+    "IGPayoutGetFinancialEntityError": {
+      "OSSPersistId": "3568752269916966",
+      "usecase": null
+    },
+    "IGPayoutGetProductOnboardingType": {
+      "OSSPersistId": "6069036156455899",
+      "usecase": null
+    },
+    "IGPayoutLinkFinancialEntity": {
+      "OSSPersistId": "4253411841377444",
+      "usecase": null
+    },
+    "IGPayoutOnboardingAddressValidationQuery": {
+      "OSSPersistId": "5028462100529488",
+      "usecase": null
+    },
+    "IGPayoutOnboardingBankValidationQuery": {
+      "OSSPersistId": "2797563760340062",
+      "usecase": null
+    },
+    "IGPayoutOnboardingCountryQueryEndpoint": {
+      "OSSPersistId": "3189561871101857",
+      "usecase": null
+    },
+    "IGPayoutOnboardingCreateDirectDebitCredentialMutation": {
+      "OSSPersistId": "2923859017637298",
+      "usecase": null
+    },
+    "IGPayoutOnboardingDirectDebitConfigQuery": {
+      "OSSPersistId": "3090612511022391",
+      "usecase": null
+    },
+    "IGPayoutOnboardingPhoneValidationQuery": {
+      "OSSPersistId": "4063813047025637",
+      "usecase": null
+    },
+    "IGPayoutOnboardingStatesTaxTypesPayoutMethodsQuery": {
+      "OSSPersistId": "3325496367481052",
+      "usecase": null
+    },
+    "IGPayoutPayPalURL": {
+      "OSSPersistId": "3749482498458553",
+      "usecase": null
+    },
+    "IGPaypalConsentBottomSheetQuery": {
+      "OSSPersistId": "3488455874548967",
+      "usecase": null
+    },
+    "IGPrivacyFlowTriggerQuery": {
+      "OSSPersistId": "3727780594005156",
+      "usecase": null
+    },
+    "IGProactiveWarningBannerQuery": {
+      "OSSPersistId": "3356349614444333",
+      "usecase": null
+    },
+    "IGResetPINWithPasswordMutation": {
+      "OSSPersistId": "4022315961116602",
+      "usecase": null
+    },
+    "IGRiskAppealCase": {
+      "OSSPersistId": "2567435586677616",
+      "usecase": null
+    },
+    "IGToFBXPostingDestinationsQuery": {
+      "OSSPersistId": "2772098059556287",
+      "usecase": null
+    },
+    "IGTurnDiscovery": {
+      "OSSPersistId": "3245670062124383",
+      "usecase": null
+    },
+    "IGWWWTestModularFragmentModelQuery": {
+      "OSSPersistId": "2963389900450314",
+      "usecase": null
+    },
+    "IabAutofillOptOutQuery": {
+      "OSSPersistId": "1582502198519720",
+      "usecase": null
+    },
+    "IgDonationsEligibilityQuery": {
+      "OSSPersistId": "2615360401861024",
+      "usecase": null
+    },
+    "IgFbPayOrdersQuery": {
+      "OSSPersistId": "3557107337651376",
+      "usecase": null
+    },
+    "IgFbPayPaymentMethodsQuery": {
+      "OSSPersistId": "5547198828627473",
+      "usecase": null
+    },
+    "IgPaymentsPINDeleteMutation": {
+      "OSSPersistId": "1567876396602659",
+      "usecase": null
+    },
+    "IgPaymentsSettingsInfoQuery": {
+      "OSSPersistId": "3074914985892821",
+      "usecase": null
+    },
+    "IgPaymentsUpdatePaymentAccountNameMutation": {
+      "OSSPersistId": "1095111680613571",
+      "usecase": null
+    },
+    "IntegrityUserEligibleToUseIGRoomQuery": {
+      "OSSPersistId": "3817706355002952",
+      "usecase": null
+    },
+    "InviteToIGRoomMutation": {
+      "OSSPersistId": "3909872785742293",
+      "usecase": null
+    },
+    "ListParticipantsQuery": {
+      "OSSPersistId": "3722243494497752",
+      "usecase": null
+    },
+    "ListRooms": {
+      "OSSPersistId": "3742894919140155",
+      "usecase": null
+    },
+    "PAYGraphQLFBPayUnlinkAccount": {
+      "OSSPersistId": "3549473848438208",
+      "usecase": null
+    },
+    "PAYGraphQLFBPaylinkAccount": {
+      "OSSPersistId": "3286091661460024",
+      "usecase": null
+    },
+    "PreprocessingMutation": {
+      "OSSPersistId": "3843134939110984",
+      "usecase": null
+    },
+    "ProductDetailsPageUserExperienceQuery": {
+      "OSSPersistId": "6224323274260558",
+      "usecase": null
+    },
+    "ResolveIGRoomLinkQuery": {
+      "OSSPersistId": "5889083977772046",
+      "usecase": null
+    },
+    "ScriptingPackagesLatestVersionQuery": {
+      "OSSPersistId": "3537650789678406",
+      "usecase": null
+    },
+    "SessionSurveyUriQuery": {
+      "OSSPersistId": "3789388284511218",
+      "usecase": null
+    },
+    "ShowConnectFBPayQuery": {
+      "OSSPersistId": "3035445799903957",
+      "usecase": null
+    },
+    "TINValidationQuery": {
+      "OSSPersistId": "3627404867334368",
+      "usecase": null
+    },
+    "UpdateIGNativeRoom": {
+      "OSSPersistId": "3266075313492351",
+      "usecase": null
+    },
+    "UpgradeOverMobileDataPreferences": {
+      "OSSPersistId": "2276775219083294",
+      "usecase": null
+    },
+    "VideoLicenseQuery": {
+      "OSSPersistId": "3450006878439222",
+      "usecase": null
+    }
+  },
+  "version": 1
+}

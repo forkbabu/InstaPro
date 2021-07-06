@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/transparent" />
+            <size android:height="@dimen/igds_snackbar_image_size" android:width="@dimen/igds_snackbar_image_size" />
+        </shape>
+    </item>
+    <item>
+        <bitmap android:gravity="center_horizontal" android:src="@drawable/instagram_restrict_outline_24" android:tint="@color/white" />
+    </item>
+</layer-list>

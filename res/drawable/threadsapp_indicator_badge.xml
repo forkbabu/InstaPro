@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/igds_primary_background" />
+            <size android:height="@dimen/action_bar_badge_background_size" android:width="@dimen/action_bar_badge_background_size" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/instagram_threadsapp_assets_tinythreadsappbadge" android:left="@dimen/action_bar_badge_inset" android:top="@dimen/action_bar_badge_inset" android:right="@dimen/action_bar_badge_inset" android:bottom="@dimen/action_bar_badge_inset" />
+</layer-list>

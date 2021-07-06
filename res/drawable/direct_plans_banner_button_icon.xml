@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center">
+        <shape android:shape="ring" android:useLevel="false" android:innerRadius="@dimen/direct_plans_banner_button_icon_border_inner_radius" android:thickness="@dimen/direct_plans_banner_button_icon_border_thickness">
+            <solid android:color="@color/igds_icon_on_color" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:drawable="@drawable/instagram_calendar_outline_24" android:left="@dimen/direct_plans_banner_button_icon_padding" android:top="@dimen/direct_plans_banner_button_icon_padding" android:right="@dimen/direct_plans_banner_button_icon_padding" android:bottom="@dimen/direct_plans_banner_button_icon_padding" />
+</layer-list>

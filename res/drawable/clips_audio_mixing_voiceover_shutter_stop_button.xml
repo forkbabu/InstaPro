@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/red_5" />
+    <size android:height="@dimen/clips_voiceover_stop_button_size" android:width="@dimen/clips_voiceover_stop_button_size" />
+    <corners android:radius="@dimen/clips_voiceover_stop_button_corner_radius" />
+</shape>

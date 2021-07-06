@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@android:color/transparent" />
+            <stroke android:width="2.5px" android:color="@color/grey_1" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/instagram_shopping_bag_outline_24" android:left="@dimen/inbox_options_drawable_padding" android:top="@dimen/inbox_options_drawable_padding" android:right="@dimen/inbox_options_drawable_padding" android:bottom="@dimen/inbox_options_drawable_padding" />
+</layer-list>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <gradient android:startColor="@color/igds_gradient_purple" android:endColor="@color/igds_gradient_blue" android:angle="45.0" android:type="linear" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/instagram_facebook_avatars_outline_44" />
+</layer-list>

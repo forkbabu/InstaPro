@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Menu" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu" />
+    <style name="Base.Theme" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:colorPrimary">@color/grey_9</item>
+        <item name="android:colorAccent">@color/blue_5</item>
+        <item name="android:statusBarColor">@color/status_bar_background</item>
+        <item name="android:colorEdgeEffect">@color/grey_3</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="statusBarBackgroundColor">?android:statusBarColor</item>
+    </style>
+    <style name="Base.Theme.AppCompat" parent="@style/Base.V23.Theme.AppCompat" />
+    <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V23.Theme.AppCompat.Light" />
+    <style name="Base.Widget.AppCompat.ActionButton.Overflow" parent="@android:style/Widget.Material.ActionButton.Overflow" />
+    <style name="Base.Widget.AppCompat.Button.Borderless.Colored" parent="@android:style/Widget.Material.Button.Borderless.Colored" />
+    <style name="Base.Widget.AppCompat.EditText" parent="@android:style/Widget.Material.EditText">
+        <item name="android:breakStrategy">simple</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="Base.Widget.AppCompat.RatingBar.Indicator" parent="@android:style/Widget.Material.RatingBar.Indicator" />
+    <style name="Base.Widget.AppCompat.RatingBar.Small" parent="@android:style/Widget.Material.RatingBar.Small" />
+    <style name="Base.Widget.AppCompat.TextView" parent="@android:style/Widget.Material.TextView">
+        <item name="android:breakStrategy">high_quality</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="BlockOptionsRow.Label" parent="@style/igds_label">
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:paddingStart">12.0dip</item>
+        <item name="android:paddingEnd">12.0dip</item>
+        <item name="android:breakStrategy">balanced</item>
+    </style>
+    <style name="BrowserFullscreen" parent="@style/BrowserRedesign">
+        <item name="android:statusBarColor">@color/iab_chrome_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="BrowserRedesign" parent="@style/IgTranslucentWindow">
+        <item name="android:statusBarColor">@color/iab_card_style_status_bar</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="iabChromeBackgroundColor">@color/iab_chrome_background</item>
+        <item name="iabChromeBackgroundRes">@drawable/ig_browser_chrome_background</item>
+        <item name="iabChromeDividerColor">@color/iab_chrome_divider</item>
+        <item name="iabClickableBackgroundRes">@drawable/ig_iab_clickable_bg</item>
+        <item name="iabMenuBackgroundRes">@drawable/browser_menu_bg</item>
+        <item name="iabNavBackRes">@drawable/ig_iab_navigation_back</item>
+        <item name="iabNavForwardRes">@drawable/ig_iab_navigation_forward</item>
+    </style>
+    <style name="CallHandlerTheme" parent="@style/CallHandlerTheme.Base">
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="CallTheme" parent="@style/CallTheme.Base">
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="CardView" parent="@style/Base.CardView">
+        <item name="cardBackgroundColor">?android:colorBackgroundFloating</item>
+    </style>
+    <style name="DirectShhMode" parent="@style/DirectShhModeBase">
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="Base.V23.Theme.AppCompat" parent="@style/Base.V22.Theme.AppCompat">
+        <item name="actionBarItemBackground">?android:actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:actionMenuTextColor</item>
+        <item name="actionOverflowButtonStyle">?android:actionOverflowButtonStyle</item>
+        <item name="controlBackground">@drawable/abc_control_background_material</item>
+        <item name="ratingBarStyleIndicator">?android:ratingBarStyleIndicator</item>
+        <item name="ratingBarStyleSmall">?android:ratingBarStyleSmall</item>
+    </style>
+    <style name="Base.V23.Theme.AppCompat.Light" parent="@style/Base.V22.Theme.AppCompat.Light">
+        <item name="actionBarItemBackground">?android:actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:actionMenuTextColor</item>
+        <item name="actionOverflowButtonStyle">?android:actionOverflowButtonStyle</item>
+        <item name="controlBackground">@drawable/abc_control_background_material</item>
+        <item name="ratingBarStyleIndicator">?android:ratingBarStyleIndicator</item>
+        <item name="ratingBarStyleSmall">?android:ratingBarStyleSmall</item>
+    </style>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/divider_thickness" android:color="@color/igds_tertiary_icon" android:dashWidth="@dimen/iglive_question_list_dash_gap" android:dashGap="@dimen/iglive_question_list_dash_gap" />
+    <corners android:radius="@dimen/iglive_question_list_corner_radius" />
+</shape>

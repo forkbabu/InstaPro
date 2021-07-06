@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/igds_primary_icon" />
+    <corners android:topLeftRadius="@dimen/mock_controls_container_margin" android:bottomLeftRadius="@dimen/mock_controls_container_margin" />
+    <stroke android:width="1.0dip" android:color="@color/white" />
+</shape>

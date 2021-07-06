@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="top" android:orientation="horizontal" android:id="@id/action_bar" android:layout_width="fill_parent" android:layout_height="?actionBarHeight" style="@style/ActionBar"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/action_bar_button_back" android:src="@drawable/instagram_arrow_back_24" android:contentDescription="@string/back" style="@style/ActionBarButton.Modal" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/action_bar_textview_title_container" android:layout_width="0.0dip" android:layout_height="?actionBarHeight" android:layout_weight="1.0">
+        <TextView android:textSize="14.0sp" android:textColor="?textColorPrimary" android:gravity="center_vertical" android:id="@id/action_bar_textview_title" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="@string/dont_follow_title" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/unfollow_all" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/ActionBarTitle" />
+        <Button android:textSize="12.0sp" android:textColor="@android:color/holo_red_light" android:id="@id/unfollow_all" android:background="@drawable/downbutton_bg_selector" android:padding="10.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="@string/unfollow_all" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/action_bar_textview_title" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

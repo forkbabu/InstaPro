@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/quick_capture_upsell_button_margin" android:top="@dimen/quick_capture_upsell_button_margin" android:right="@dimen/quick_capture_upsell_button_margin" android:bottom="@dimen/quick_capture_upsell_button_margin">
+        <shape android:shape="oval">
+            <solid android:color="@color/white" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ig_illustrations_qp_emoji_slider" android:left="@dimen/quick_capture_upsell_icon_inset" android:top="@dimen/quick_capture_upsell_icon_inset" android:right="@dimen/quick_capture_upsell_icon_inset" android:bottom="@dimen/quick_capture_upsell_icon_inset" />
+</layer-list>

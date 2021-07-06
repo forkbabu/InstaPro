@@ -1,0 +1,132 @@
+.class public final LX/E8e;
+.super Ljava/lang/Object;
+.source ""
+
+
+# static fields
+.field public static final A02:LX/E8e;
+
+.field public static final A03:LX/E8e;
+
+
+# instance fields
+.field public final A00:LX/E8i;
+
+.field public final A01:Ljava/lang/String;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 3
+
+    sget-object v1, LX/E8i;->A02:LX/E8i;
+
+    const/4 v2, 0x0
+
+    new-instance v0, LX/E8e;
+
+    invoke-direct {v0, v1, v2}, LX/E8e;-><init>(LX/E8i;Ljava/lang/String;)V
+
+    sput-object v0, LX/E8e;->A02:LX/E8e;
+
+    sget-object v1, LX/E8i;->A01:LX/E8i;
+
+    new-instance v0, LX/E8e;
+
+    invoke-direct {v0, v1, v2}, LX/E8e;-><init>(LX/E8i;Ljava/lang/String;)V
+
+    sput-object v0, LX/E8e;->A03:LX/E8e;
+
+    return-void
+.end method
+
+.method public constructor <init>(LX/E8i;Ljava/lang/String;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, LX/E8e;->A00:LX/E8i;
+
+    iput-object p2, p0, LX/E8e;->A01:Ljava/lang/String;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 4
+
+    const/4 v3, 0x1
+
+    if-eq p0, p1, :cond_0
+
+    const/4 v2, 0x0
+
+    if-eqz p1, :cond_2
+
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v1
+
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v0
+
+    if-ne v1, v0, :cond_2
+
+    check-cast p1, LX/E8e;
+
+    iget-object v1, p0, LX/E8e;->A00:LX/E8i;
+
+    iget-object v0, p1, LX/E8e;->A00:LX/E8i;
+
+    if-ne v1, v0, :cond_1
+
+    iget-object v1, p0, LX/E8e;->A01:Ljava/lang/String;
+
+    iget-object v0, p1, LX/E8e;->A01:Ljava/lang/String;
+
+    invoke-static {v1, v0}, Ljava/util/Objects;->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    :cond_0
+    return v3
+
+    :cond_1
+    const/4 v3, 0x0
+
+    return v3
+
+    :cond_2
+    return v2
+.end method
+
+.method public final hashCode()I
+    .locals 3
+
+    const/4 v0, 0x2
+
+    new-array v2, v0, [Ljava/lang/Object;
+
+    iget-object v1, p0, LX/E8e;->A00:LX/E8i;
+
+    const/4 v0, 0x0
+
+    aput-object v1, v2, v0
+
+    iget-object v1, p0, LX/E8e;->A01:Ljava/lang/String;
+
+    const/4 v0, 0x1
+
+    aput-object v1, v2, v0
+
+    invoke-static {v2}, Ljava/util/Objects;->hash([Ljava/lang/Object;)I
+
+    move-result v0
+
+    return v0
+.end method

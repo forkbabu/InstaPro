@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:startColor="@color/igds_gradient_purple" android:endColor="@color/igds_gradient_cyan" android:angle="315.0" android:type="linear" />
+            <corners android:radius="@dimen/iglive_question_list_corner_radius" />
+        </shape>
+    </item>
+    <item android:left="@dimen/iglive_question_list_width" android:top="@dimen/iglive_question_list_width" android:right="@dimen/iglive_question_list_width" android:bottom="@dimen/iglive_question_list_width">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/iglive_question_list_width" />
+            <solid android:color="@color/igds_banner_background" />
+        </shape>
+    </item>
+</layer-list>

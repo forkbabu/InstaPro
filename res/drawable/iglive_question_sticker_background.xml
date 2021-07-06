@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/black_50_transparent" />
+    <corners android:topLeftRadius="@dimen/question_sticker_corner_radius" android:topRightRadius="@dimen/question_sticker_corner_radius" android:bottomLeftRadius="@dimen/question_sticker_corner_radius" android:bottomRightRadius="@dimen/question_sticker_corner_radius" />
+</shape>

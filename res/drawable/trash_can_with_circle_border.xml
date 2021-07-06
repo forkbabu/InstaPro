@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <stroke android:width="1.5dip" android:color="@color/white" />
+            <size android:height="@dimen/trash_can_circle_size" android:width="@dimen/trash_can_circle_size" />
+        </shape>
+    </item>
+    <item>
+        <bitmap android:gravity="center" android:src="@drawable/instagram_delete_outline_24" android:tint="@color/white" />
+    </item>
+</layer-list>

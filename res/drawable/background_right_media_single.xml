@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/hub_image_border_offset_single" android:top="@dimen/hub_image_border_offset_single" android:right="@dimen/hub_image_border_offset_single" android:bottom="@dimen/hub_image_border_offset_single">
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/hub_image_border_radius_single" android:color="@color/igds_primary_background" />
+            <corners android:radius="@dimen/hub_image_cover_border_radius_single" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/hub_image_border_size" android:color="@color/igds_separator" />
+            <corners android:radius="@dimen/hub_image_border_radius_single" />
+        </shape>
+    </item>
+</layer-list>

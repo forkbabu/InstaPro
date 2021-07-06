@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="top">
+        <shape>
+            <size android:height="@dimen/tab_bar_height_whiteout" />
+            <solid android:color="?backgroundColorSecondary" />
+        </shape>
+    </item>
+    <item android:gravity="top" android:drawable="@drawable/instant_splash_placeholder_shadow_top_down" android:top="@dimen/tab_bar_height_whiteout" />
+</layer-list>

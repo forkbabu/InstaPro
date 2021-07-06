@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="canvas_gifs_tile_height">100.0dip</dimen>
+    <dimen name="interop_header_image_height">140.0dip</dimen>
+    <dimen name="interop_highlight_section_max_height">230.0dip</dimen>
+    <dimen name="upsell_content_margin_top">0.0dip</dimen>
+    <dimen name="upsell_content_max_height">400.0dip</dimen>
+    <dimen name="upsell_illustration_height">120.0dip</dimen>
+</resources>

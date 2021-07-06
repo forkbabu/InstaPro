@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="1.0dip" android:color="@color/igds_list_badge" />
+    <corners android:radius="@dimen/background_corner_radius" />
+    <padding android:left="@dimen/attributes_section_reasons_to_buy_padding_horizontal" android:top="@dimen/attributes_section_reasons_to_buy_padding_vertical" android:right="@dimen/attributes_section_reasons_to_buy_padding_horizontal" android:bottom="@dimen/attributes_section_reasons_to_buy_padding_vertical" />
+</shape>

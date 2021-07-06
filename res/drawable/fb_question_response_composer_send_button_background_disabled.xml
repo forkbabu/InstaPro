@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/question_response_composer_send_button_pressed_in_fb_style" />
+    <corners android:bottomLeftRadius="@dimen/question_sticker_corner_radius_in_fb_style" android:bottomRightRadius="@dimen/question_sticker_corner_radius_in_fb_style" />
+</shape>

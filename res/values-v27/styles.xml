@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="IgPanorama" parent="@style/IgPanoramaBase">
+        <item name="android:navigationBarColor">@color/igds_primary_background</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <style name="Theme.Instagram.TransparentStatusBar" parent="@style/Theme.Instagram">
+        <item name="android:statusBarColor">@color/igds_transparent</item>
+        <item name="android:navigationBarColor">@color/igds_transparent_navigation_bar</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="statusBarBackgroundColor">@color/igds_transparent</item>
+    </style>
+</resources>

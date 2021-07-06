@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/message_reactions_pill_shadow_layer">
+        <shape android:shape="rectangle">
+            <padding android:left="0.0dip" android:top="@dimen/message_reactions_pill_shadow_vertical_padding" android:right="0.0dip" android:bottom="0.0dip" />
+            <corners android:radius="@dimen/message_reactions_pill_background_radius" />
+        </shape>
+    </item>
+    <item android:id="@id/message_reactions_pill_background_layer">
+        <shape android:shape="rectangle">
+            <padding android:top="@dimen/message_reactions_pill_background_vertical_padding" android:bottom="@dimen/message_reactions_pill_background_vertical_padding" />
+            <corners android:radius="@dimen/message_reactions_pill_background_radius" />
+        </shape>
+    </item>
+</layer-list>

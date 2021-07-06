@@ -1,0 +1,88 @@
+.class public final LX/2wQ;
+.super Ljava/lang/Object;
+.source ""
+
+
+# direct methods
+.method public static A00(Ljava/lang/String;)Ljava/lang/Integer;
+    .locals 5
+
+    const/4 v0, 0x5
+
+    invoke-static {v0}, LX/002;->A00(I)[Ljava/lang/Integer;
+
+    move-result-object v4
+
+    array-length v3, v4
+
+    const/4 v2, 0x0
+
+    :goto_0
+    if-ge v2, v3, :cond_1
+
+    aget-object v1, v4, v2
+
+    invoke-static {v1}, LX/2wQ;->A01(Ljava/lang/Integer;)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    return-object v1
+
+    :cond_0
+    add-int/lit8 v2, v2, 0x1
+
+    goto :goto_0
+
+    :cond_1
+    sget-object v0, LX/002;->A0N:Ljava/lang/Integer;
+
+    return-object v0
+.end method
+
+.method public static A01(Ljava/lang/Integer;)Ljava/lang/String;
+    .locals 0
+
+    invoke-virtual {p0}, Ljava/lang/Number;->intValue()I
+
+    move-result p0
+
+    packed-switch p0, :pswitch_data_0
+
+    const-string p0, "focus"
+
+    return-object p0
+
+    :pswitch_0
+    const-string/jumbo p0, "superzoom"
+
+    return-object p0
+
+    :pswitch_1
+    const-string p0, "ephemeral"
+
+    return-object p0
+
+    :pswitch_2
+    const-string/jumbo p0, "normal"
+
+    return-object p0
+
+    :pswitch_3
+    const-string p0, "focusV2"
+
+    return-object p0
+
+    :pswitch_data_0
+    .packed-switch 0x1
+        :pswitch_0
+        :pswitch_1
+        :pswitch_2
+        :pswitch_3
+    .end packed-switch
+.end method

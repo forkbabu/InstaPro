@@ -1,0 +1,134 @@
+.class public final LX/7tO;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements LX/7tW;
+
+
+# instance fields
+.field public final synthetic A00:LX/7tK;
+
+
+# direct methods
+.method public constructor <init>(LX/7tK;)V
+    .locals 0
+
+    iput-object p1, p0, LX/7tO;->A00:LX/7tK;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final BrC()V
+    .locals 3
+
+    iget-object v1, p0, LX/7tO;->A00:LX/7tK;
+
+    iget-object v0, v1, LX/7tK;->A03:LX/1Tc;
+
+    invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->isAdded()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    iget-object v2, v1, LX/7tK;->A00:Landroid/content/Context;
+
+    const v0, 0x7f121aa6
+
+    invoke-virtual {v2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v1
+
+    const/4 v0, 0x0
+
+    invoke-static {v2, v1, v0}, LX/73B;->A03(Landroid/content/Context;Ljava/lang/CharSequence;I)LX/33p;
+
+    :cond_0
+    return-void
+.end method
+
+.method public final BrD(ZZ)V
+    .locals 2
+
+    iget-object v1, p0, LX/7tO;->A00:LX/7tK;
+
+    iget-object v0, v1, LX/7tK;->A03:LX/1Tc;
+
+    invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->isAdded()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    iget-object v1, v1, LX/7tK;->A00:Landroid/content/Context;
+
+    const/4 v0, 0x0
+
+    invoke-static {v1, p1, p2, v0}, LX/7tY;->A01(Landroid/content/Context;ZZLjava/lang/Integer;)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public final BrT()V
+    .locals 3
+
+    iget-object v1, p0, LX/7tO;->A00:LX/7tK;
+
+    iget-object v0, v1, LX/7tK;->A03:LX/1Tc;
+
+    invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->isAdded()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    iget-object v2, v1, LX/7tK;->A00:Landroid/content/Context;
+
+    const v0, 0x7f121aa6
+
+    invoke-virtual {v2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v1
+
+    const/4 v0, 0x0
+
+    invoke-static {v2, v1, v0}, LX/73B;->A03(Landroid/content/Context;Ljava/lang/CharSequence;I)LX/33p;
+
+    :cond_0
+    return-void
+.end method
+
+.method public final BrU()V
+    .locals 3
+
+    iget-object v1, p0, LX/7tO;->A00:LX/7tK;
+
+    iget-object v0, v1, LX/7tK;->A03:LX/1Tc;
+
+    invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->isAdded()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    iget-object v2, v1, LX/7tK;->A00:Landroid/content/Context;
+
+    const v0, 0x7f121a64
+
+    invoke-virtual {v2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v1
+
+    const/4 v0, 0x0
+
+    invoke-static {v2, v1, v0}, LX/73B;->A03(Landroid/content/Context;Ljava/lang/CharSequence;I)LX/33p;
+
+    :cond_0
+    return-void
+.end method

@@ -1,0 +1,266 @@
+{
+  "_signature": "// @generated _GENERATED_GRAPHQL_ Created by rebuild-graphql/incremental-persist",
+  "data": {
+    "ARClassBenchmarkCountQuery": {
+      "OSSPersistId": "3040571819357379",
+      "usecase": null
+    },
+    "ARScriptingPackagesLatestVersionQuery": {
+      "OSSPersistId": "5516671281706999",
+      "usecase": null
+    },
+    "AdminedPagesQuery": {
+      "OSSPersistId": "2085543618216731",
+      "usecase": null
+    },
+    "AdsManagerAdDetailQuery": {
+      "OSSPersistId": "3275349305868788",
+      "usecase": null
+    },
+    "AdsManagerQuery": {
+      "OSSPersistId": "2352750281476898",
+      "usecase": null
+    },
+    "CameraEffectShare": {
+      "OSSPersistId": "4068042133236004",
+      "usecase": null
+    },
+    "CityQuery": {
+      "OSSPersistId": "3146781775391782",
+      "usecase": null
+    },
+    "EndRoomAndCall": {
+      "OSSPersistId": "4246397142098851",
+      "usecase": null
+    },
+    "FbAutoFillQuery": {
+      "OSSPersistId": "1325910564132424",
+      "usecase": null
+    },
+    "FbLocationUpdateMutation": {
+      "OSSPersistId": "1476762785723975",
+      "usecase": null
+    },
+    "FbPageCreateMutation": {
+      "OSSPersistId": "1505614726115470",
+      "usecase": null
+    },
+    "FbPageTitleCheckQuery": {
+      "OSSPersistId": "1594744070566010",
+      "usecase": null
+    },
+    "FbPageUnpublishedStatusQuery": {
+      "OSSPersistId": "2303424759708177",
+      "usecase": null
+    },
+    "FbPageUrlQuery": {
+      "OSSPersistId": "2039840616082005",
+      "usecase": null
+    },
+    "FetchCapabilityLatestVersionQuery": {
+      "OSSPersistId": "3424256404316319",
+      "usecase": null
+    },
+    "FetchCmsQuery": {
+      "OSSPersistId": "1830807456940768",
+      "usecase": null
+    },
+    "FetchPageCategoriesQuery": {
+      "OSSPersistId": "1800737239940140",
+      "usecase": null
+    },
+    "GetMessengerRooms": {
+      "OSSPersistId": "3609504345784024",
+      "usecase": null
+    },
+    "IGAPIRewriteCamera": {
+      "OSSPersistId": "3567804066644198",
+      "usecase": null
+    },
+    "IGAvatarEffects": {
+      "OSSPersistId": "5291259004225181",
+      "usecase": null
+    },
+    "IGAvatarStatus": {
+      "OSSPersistId": "4203080906383041",
+      "usecase": null
+    },
+    "IGCameraEffects": {
+      "OSSPersistId": "5190353257649154",
+      "usecase": null
+    },
+    "IGCanvasDocumentQuery": {
+      "OSSPersistId": "3159299667515380",
+      "usecase": null
+    },
+    "IGInsightsProductInsightsCreatorsListSurfaceQuery": {
+      "OSSPersistId": "2434924096629992",
+      "usecase": null
+    },
+    "IGInsightsProductInsightsPageViewsFromPostsGridSurfaceQuery": {
+      "OSSPersistId": "2556468304418960",
+      "usecase": null
+    },
+    "IGInsightsProductInsightsPageViewsFromStoriesGridSurfaceQuery": {
+      "OSSPersistId": "3189146491156856",
+      "usecase": null
+    },
+    "IGMonetizationEligibilityAppeal": {
+      "OSSPersistId": "2256158594471255",
+      "usecase": null
+    },
+    "IGTestModularFragmentModelQuery": {
+      "OSSPersistId": "3113820025366684",
+      "usecase": null
+    },
+    "IgInsightProductItemInsightsQuery": {
+      "OSSPersistId": "3260010994040214",
+      "usecase": null
+    },
+    "IgInsightsAccountInsightsSurfaceQuery": {
+      "OSSPersistId": "4863627666994451",
+      "usecase": null
+    },
+    "IgInsightsCombinedMediaGridSurfaceQuery": {
+      "OSSPersistId": "2731344283572149",
+      "usecase": null
+    },
+    "IgInsightsPostGridSurfaceQuery": {
+      "OSSPersistId": "2869098276473213",
+      "usecase": null
+    },
+    "IgInsightsPostInsightsQuery": {
+      "OSSPersistId": "3808023159239182",
+      "usecase": null
+    },
+    "IgInsightsStoryGridSurfaceQuery": {
+      "OSSPersistId": "3271888199508091",
+      "usecase": null
+    },
+    "IgInsightsStoryInsightsAppQuery": {
+      "OSSPersistId": "2619762348089826",
+      "usecase": null
+    },
+    "ImportFbPageMediaMutation": {
+      "OSSPersistId": "2100468356659483",
+      "usecase": null
+    },
+    "ImportIGProfilePhotoToPage": {
+      "OSSPersistId": "2626959923988220",
+      "usecase": null
+    },
+    "InstagramAppealAd": {
+      "OSSPersistId": "1634085003332467",
+      "usecase": null
+    },
+    "InstagramAppealBrandedContentViolation": {
+      "OSSPersistId": "1541019415952250",
+      "usecase": null
+    },
+    "JASTIgQueryWithSharedPrefix": {
+      "OSSPersistId": "3266568466782076",
+      "usecase": null
+    },
+    "JASTIgQueryWithSharedPrefixPart2": {
+      "OSSPersistId": "3482467601800532",
+      "usecase": null
+    },
+    "JASTIgTestIrrelevantLegacyFragmentModelsQuery": {
+      "OSSPersistId": "3242287789211010",
+      "usecase": null
+    },
+    "JASTIgTestLegacyFragmentModelsMutation": {
+      "OSSPersistId": "3476808775780719",
+      "usecase": null
+    },
+    "JASTIgTestLegacyFragmentModelsQuery": {
+      "OSSPersistId": "3477618408986348",
+      "usecase": null
+    },
+    "JASTIgTestQueryWithPluralField": {
+      "OSSPersistId": "3656781151035495",
+      "usecase": null
+    },
+    "JASTIgTestQueryWithPluralFieldSpread": {
+      "OSSPersistId": "3308280052627941",
+      "usecase": null
+    },
+    "JASTIgTestQueryWithRootFieldSpread": {
+      "OSSPersistId": "3382027738586276",
+      "usecase": null
+    },
+    "LeadGenDeepLinkQuery": {
+      "OSSPersistId": "2763042427128264",
+      "usecase": null
+    },
+    "LeadGenDeepLinkUserInfoCreateMutation": {
+      "OSSPersistId": "1642111609219663",
+      "usecase": null
+    },
+    "LocationSettingsMutation": {
+      "OSSPersistId": "1892841257463212",
+      "usecase": null
+    },
+    "LocationSettingsQuery": {
+      "OSSPersistId": "1863322660420673",
+      "usecase": null
+    },
+    "MessengerRoomsCreateMutation": {
+      "OSSPersistId": "3287593134668043",
+      "usecase": null
+    },
+    "MobileDataOptIn": {
+      "OSSPersistId": "2647273348639295",
+      "usecase": null
+    },
+    "PageCategorySuggestionQuery": {
+      "OSSPersistId": "536668903123742",
+      "usecase": null
+    },
+    "PagePhotosQuery": {
+      "OSSPersistId": "2145419065562026",
+      "usecase": null
+    },
+    "PageSetVisibility": {
+      "OSSPersistId": "2203938339639129",
+      "usecase": null
+    },
+    "PublicPageInfoQuery": {
+      "OSSPersistId": "2351931081513202",
+      "usecase": null
+    },
+    "ShowreelNativeInteractiveAnimationQuery": {
+      "OSSPersistId": "3553615984728478",
+      "usecase": null
+    },
+    "StructuredSurveyEventLoggingMutation": {
+      "OSSPersistId": "1360390014032885",
+      "usecase": null
+    },
+    "StructuredSurveyQuery": {
+      "OSSPersistId": "2546385282148304",
+      "usecase": null
+    },
+    "StructuredSurveySubmitResponseMutation": {
+      "OSSPersistId": "1379118182145450",
+      "usecase": null
+    },
+    "SurveyIntegrationPointQuery": {
+      "OSSPersistId": "4435177446524408",
+      "usecase": null
+    },
+    "TokenlessPromoteQuery": {
+      "OSSPersistId": "3696617563765023",
+      "usecase": null
+    },
+    "UpdatePromoteAdAccountLinkPreference": {
+      "OSSPersistId": "3558071030935573",
+      "usecase": null
+    },
+    "VideoLicenseProvisioningQuery": {
+      "OSSPersistId": "2965157563612728",
+      "usecase": null
+    }
+  },
+  "version": 1
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="BrowserFullscreen" parent="@style/BrowserRedesign">
+        <item name="android:statusBarColor">?elevatedBackgroundColor</item>
+    </style>
+    <style name="BrowserRedesign" parent="@style/IgTranslucentWindow">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="iabChromeBackgroundColor">?elevatedBackgroundColor</item>
+        <item name="iabChromeBackgroundRes">@drawable/ig_browser_chrome_background_dark_mode</item>
+        <item name="iabChromeDividerColor">@color/iab_chrome_divider_dark_mode</item>
+        <item name="iabClickableBackgroundRes">@drawable/ig_iab_clickable_bg_dark_mode</item>
+        <item name="iabMenuBackgroundRes">@drawable/browser_menu_bg_dark_mode</item>
+        <item name="iabNavBackRes">@drawable/ig_iab_navigation_back_dark_mode</item>
+        <item name="iabNavForwardRes">@drawable/ig_iab_navigation_forward_dark_mode</item>
+    </style>
+</resources>

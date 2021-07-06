@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/igds_secondary_text" />
+    <corners android:radius="@dimen/emoji_creation_indicator_dot_radius" />
+    <size android:height="@dimen/emoji_creation_indicator_dot_size" android:width="@dimen/emoji_creation_indicator_dot_size" />
+</shape>

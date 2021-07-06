@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/selected_ring_button_outer_ring" android:drawable="@drawable/selectable_ring_button" />
+    <item android:id="@id/selected_ring_button_inner_circle">
+        <shape android:shape="oval">
+            <solid android:color="@color/metro_selector_selectable_button_color" />
+        </shape>
+    </item>
+</layer-list>

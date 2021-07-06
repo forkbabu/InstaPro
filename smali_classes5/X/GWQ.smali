@@ -1,0 +1,55 @@
+.class public final LX/GWQ;
+.super LX/GcC;
+.source ""
+
+
+# instance fields
+.field public final synthetic A00:Lcom/instagram/video/live/livewith/fragment/IgLiveWithGuestFragment;
+
+
+# direct methods
+.method public constructor <init>(Lcom/instagram/video/live/livewith/fragment/IgLiveWithGuestFragment;)V
+    .locals 0
+
+    iput-object p1, p0, LX/GWQ;->A00:Lcom/instagram/video/live/livewith/fragment/IgLiveWithGuestFragment;
+
+    invoke-direct {p0}, LX/GcC;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final A02(Ljava/lang/Exception;)V
+    .locals 2
+
+    const-string v0, "error"
+
+    invoke-static {p1, v0}, LX/0nm;->A07(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object v1, p0, LX/GWQ;->A00:Lcom/instagram/video/live/livewith/fragment/IgLiveWithGuestFragment;
+
+    const/4 v0, 0x0
+
+    invoke-static {v1, v0, p1}, Lcom/instagram/video/live/livewith/fragment/IgLiveWithGuestFragment;->A05(Lcom/instagram/video/live/livewith/fragment/IgLiveWithGuestFragment;LX/GXR;Ljava/lang/Exception;)V
+
+    return-void
+.end method
+
+.method public final bridge synthetic A03(Ljava/lang/Object;)V
+    .locals 2
+
+    check-cast p1, LX/GXR;
+
+    const-string v0, "result"
+
+    invoke-static {p1, v0}, LX/0nm;->A07(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object v1, p0, LX/GWQ;->A00:Lcom/instagram/video/live/livewith/fragment/IgLiveWithGuestFragment;
+
+    const/4 v0, 0x0
+
+    invoke-static {v1, p1, v0}, Lcom/instagram/video/live/livewith/fragment/IgLiveWithGuestFragment;->A05(Lcom/instagram/video/live/livewith/fragment/IgLiveWithGuestFragment;LX/GXR;Ljava/lang/Exception;)V
+
+    return-void
+.end method

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/background_right_media_covering_multiple" android:left="@dimen/hub_image_border_offset_multiple" android:top="@dimen/hub_image_border_offset_multiple" android:right="@dimen/hub_image_border_offset_multiple" android:bottom="@dimen/hub_image_border_offset_multiple" />
+    <item android:drawable="@drawable/background_border_right_media_multiple" />
+    <item android:gravity="center" android:drawable="@drawable/background_inner_border_right_media" />
+    <item android:gravity="center">
+        <rotate android:drawable="@drawable/background_inner_border_right_media" android:fromDegrees="90.0" android:toDegrees="90.0" />
+    </item>
+</layer-list>

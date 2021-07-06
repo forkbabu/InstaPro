@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/igds_primary_icon" />
+    <corners android:radius="@dimen/call_notification_banner_radius" />
+    <padding android:left="@dimen/call_notification_banner_padding" android:top="@dimen/call_notification_banner_padding" android:right="@dimen/call_notification_banner_padding" android:bottom="@dimen/call_notification_banner_padding" />
+</shape>

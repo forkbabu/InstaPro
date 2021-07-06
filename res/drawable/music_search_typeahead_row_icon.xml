@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/search_row_icon_container_background" />
+            <size android:height="@dimen/music_search_row_item_entity_icon_dimen" android:width="@dimen/music_search_row_item_entity_icon_dimen" />
+        </shape>
+    </item>
+    <item>
+        <bitmap android:gravity="center" android:src="@drawable/instagram_search_pano_filled_24" android:tint="@color/igds_icon_on_color" />
+    </item>
+</layer-list>

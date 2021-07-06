@@ -1,0 +1,221 @@
+.class public final LX/8Xl;
+.super LX/1IK;
+.source ""
+
+
+# instance fields
+.field public final synthetic A00:LX/8Xk;
+
+
+# direct methods
+.method public constructor <init>(LX/8Xk;)V
+    .locals 0
+
+    iput-object p1, p0, LX/8Xl;->A00:LX/8Xk;
+
+    invoke-direct {p0}, LX/1IK;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onFail(LX/2VT;)V
+    .locals 5
+
+    const v0, -0x4d321eb4
+
+    invoke-static {v0}, LX/0iL;->A03(I)I
+
+    move-result v4
+
+    iget-object v3, p0, LX/8Xl;->A00:LX/8Xk;
+
+    iget-object v0, v3, LX/8Xk;->A06:LX/7WE;
+
+    const/4 v2, 0x1
+
+    iput-boolean v2, v0, LX/7WE;->A01:Z
+
+    invoke-virtual {v0}, LX/7WE;->Anp()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    iget-object v1, v3, LX/8Xk;->A02:LX/8Xw;
+
+    const v0, -0x547bd3e6
+
+    invoke-static {v1, v0}, LX/0iM;->A00(Landroid/widget/BaseAdapter;I)V
+
+    :cond_0
+    const v0, 0x7f122351
+
+    invoke-virtual {v3, v0}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v3}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
+
+    move-result-object v0
+
+    invoke-static {v0, v1, v2}, LX/33p;->A01(Landroid/content/Context;Ljava/lang/CharSequence;I)LX/33p;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Landroid/widget/Toast;->show()V
+
+    const v0, 0x593fff6b
+
+    invoke-static {v0, v4}, LX/0iL;->A0A(II)V
+
+    return-void
+.end method
+
+.method public final onFinish()V
+    .locals 4
+
+    const v0, 0x6c11c7d4
+
+    invoke-static {v0}, LX/0iL;->A03(I)I
+
+    move-result v3
+
+    iget-object v2, p0, LX/8Xl;->A00:LX/8Xk;
+
+    iget-object v0, v2, LX/8Xk;->A06:LX/7WE;
+
+    const/4 v1, 0x0
+
+    iput-boolean v1, v0, LX/7WE;->A02:Z
+
+    invoke-virtual {v2}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/1aQ;->A02(Landroid/app/Activity;)LX/1aQ;
+
+    move-result-object v0
+
+    invoke-virtual {v0, v1}, LX/1aQ;->setIsLoading(Z)V
+
+    iget-object v0, v2, LX/8Xk;->A02:LX/8Xw;
+
+    iget-object v0, v0, LX/8Xw;->A02:Ljava/util/List;
+
+    invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-static {v2}, LX/8Xk;->A03(LX/8Xk;)V
+
+    :cond_0
+    const v0, -0x6d7fc139
+
+    invoke-static {v0, v3}, LX/0iL;->A0A(II)V
+
+    return-void
+.end method
+
+.method public final onStart()V
+    .locals 2
+
+    const v0, 0x18582c2e
+
+    invoke-static {v0}, LX/0iL;->A03(I)I
+
+    move-result v1
+
+    iget-object v0, p0, LX/8Xl;->A00:LX/8Xk;
+
+    invoke-static {v0}, LX/8Xk;->A02(LX/8Xk;)V
+
+    const v0, -0x2f8c896f
+
+    invoke-static {v0, v1}, LX/0iL;->A0A(II)V
+
+    return-void
+.end method
+
+.method public final bridge synthetic onSuccess(Ljava/lang/Object;)V
+    .locals 7
+
+    const v0, -0x1751c80b
+
+    invoke-static {v0}, LX/0iL;->A03(I)I
+
+    move-result v3
+
+    check-cast p1, LX/8Xp;
+
+    const v0, -0x212955bb
+
+    invoke-static {v0}, LX/0iL;->A03(I)I
+
+    move-result v4
+
+    iget-object v6, p1, LX/8Xp;->A00:LX/3E8;
+
+    iget-object v5, p0, LX/8Xl;->A00:LX/8Xk;
+
+    iget-boolean v0, v5, LX/8Xk;->A07:Z
+
+    if-eqz v0, :cond_0
+
+    iget-object v2, v5, LX/8Xk;->A02:LX/8Xw;
+
+    iget-object v1, v5, LX/8Xk;->A00:Lcom/instagram/model/reels/Reel;
+
+    iget-object v0, v5, LX/8Xk;->A01:LX/2Cv;
+
+    iput-object v1, v2, LX/8Xw;->A00:Lcom/instagram/model/reels/Reel;
+
+    iput-object v0, v2, LX/8Xw;->A01:LX/2Cv;
+
+    iget-object v1, v2, LX/8Xw;->A02:Ljava/util/List;
+
+    invoke-interface {v1}, Ljava/util/List;->clear()V
+
+    iget-object v0, v6, LX/3E8;->A02:Ljava/util/List;
+
+    invoke-interface {v1, v0}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
+
+    invoke-static {v2}, LX/8Xw;->A00(LX/8Xw;)V
+
+    const/4 v0, 0x0
+
+    iput-boolean v0, v5, LX/8Xk;->A07:Z
+
+    :goto_0
+    iget-object v1, v5, LX/8Xk;->A06:LX/7WE;
+
+    iget-object v0, v6, LX/3E8;->A00:Ljava/lang/String;
+
+    iput-object v0, v1, LX/7WE;->A00:Ljava/lang/String;
+
+    const v0, 0x5f172b7c
+
+    invoke-static {v0, v4}, LX/0iL;->A0A(II)V
+
+    const v0, -0x49334299
+
+    invoke-static {v0, v3}, LX/0iL;->A0A(II)V
+
+    return-void
+
+    :cond_0
+    iget-object v2, v5, LX/8Xk;->A02:LX/8Xw;
+
+    iget-object v1, v6, LX/3E8;->A02:Ljava/util/List;
+
+    iget-object v0, v2, LX/8Xw;->A02:Ljava/util/List;
+
+    invoke-interface {v0, v1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
+
+    invoke-static {v2}, LX/8Xw;->A00(LX/8Xw;)V
+
+    goto :goto_0
+.end method

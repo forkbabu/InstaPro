@@ -1,0 +1,93 @@
+.class public final LX/CIh;
+.super LX/2wV;
+.source ""
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, LX/2wV;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final A03(Landroid/view/ViewGroup;Landroid/view/LayoutInflater;)LX/2BF;
+    .locals 1
+
+    const-string v0, "parent"
+
+    invoke-static {p1, v0}, LX/0nm;->A07(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "layoutInflater"
+
+    invoke-static {p2, v0}, LX/0nm;->A07(Ljava/lang/Object;Ljava/lang/String;)V
+
+    new-instance v0, LX/CIi;
+
+    invoke-direct {v0, p1, p2}, LX/CIi;-><init>(Landroid/view/ViewGroup;Landroid/view/LayoutInflater;)V
+
+    return-object v0
+.end method
+
+.method public final A04()Ljava/lang/Class;
+    .locals 1
+
+    const-class v0, LX/CBQ;
+
+    return-object v0
+.end method
+
+.method public final A05(LX/2Xx;LX/2BF;)V
+    .locals 6
+
+    check-cast p1, LX/CBQ;
+
+    check-cast p2, LX/CIi;
+
+    const-string v1, "model"
+
+    invoke-static {p1, v1}, LX/0nm;->A07(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "holder"
+
+    invoke-static {p2, v0}, LX/0nm;->A07(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-static {p1, v1}, LX/0nm;->A07(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iput-object p1, p2, LX/CIi;->A00:LX/CBQ;
+
+    iget-object v5, p2, LX/CIi;->A03:Lcom/instagram/common/ui/base/IgTextView;
+
+    const-string v4, "metadataTxtView"
+
+    invoke-static {v5, v4}, LX/0nm;->A06(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/4 v3, 0x0
+
+    const/16 v2, 0x8
+
+    invoke-virtual {v5, v2}, Landroid/view/View;->setVisibility(I)V
+
+    iget-object v1, p2, LX/CIi;->A01:Landroid/view/View;
+
+    const-string v0, "badgeView"
+
+    invoke-static {v1, v0}, LX/0nm;->A06(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
+
+    iget-object v1, p2, LX/CIi;->A02:Lcom/instagram/common/ui/base/IgTextView;
+
+    iget v0, p1, LX/CBQ;->A00:I
+
+    invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(I)V
+
+    invoke-static {v5, v4}, LX/0nm;->A06(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {v5, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    return-void
+.end method

@@ -1,0 +1,257 @@
+.class public final LX/3YJ;
+.super Ljava/lang/Object;
+.source ""
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static parseFromJson(LX/0oL;)LX/3YI;
+    .locals 8
+
+    new-instance v5, LX/3YI;
+
+    invoke-direct {v5}, LX/3YI;-><init>()V
+
+    invoke-virtual {p0}, LX/0oL;->A0h()LX/0oP;
+
+    move-result-object v0
+
+    sget-object v4, LX/0oP;->A08:LX/0oP;
+
+    if-eq v0, v4, :cond_0
+
+    invoke-virtual {p0}, LX/0oL;->A0g()LX/0oL;
+
+    const/4 v0, 0x0
+
+    return-object v0
+
+    :cond_0
+    :goto_0
+    invoke-virtual {p0}, LX/0oL;->A0q()LX/0oP;
+
+    move-result-object v0
+
+    sget-object v7, LX/0oP;->A04:LX/0oP;
+
+    if-eq v0, v7, :cond_e
+
+    invoke-virtual {p0}, LX/0oL;->A0j()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {p0}, LX/0oL;->A0q()LX/0oP;
+
+    const-string v0, "thread"
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    invoke-static {p0}, LX/6MS;->parseFromJson(LX/0oL;)LX/6MT;
+
+    move-result-object v0
+
+    iput-object v0, v5, LX/3YI;->A00:LX/6MT;
+
+    :goto_1
+    invoke-virtual {p0}, LX/0oL;->A0g()LX/0oL;
+
+    goto :goto_0
+
+    :cond_1
+    const-string v0, "thread_context_items"
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    const/4 v6, 0x0
+
+    if-eqz v0, :cond_4
+
+    invoke-virtual {p0}, LX/0oL;->A0h()LX/0oP;
+
+    move-result-object v1
+
+    sget-object v0, LX/0oP;->A07:LX/0oP;
+
+    if-ne v1, v0, :cond_3
+
+    new-instance v6, Ljava/util/ArrayList;
+
+    invoke-direct {v6}, Ljava/util/ArrayList;-><init>()V
+
+    :cond_2
+    :goto_2
+    invoke-virtual {p0}, LX/0oL;->A0q()LX/0oP;
+
+    move-result-object v1
+
+    sget-object v0, LX/0oP;->A03:LX/0oP;
+
+    if-eq v1, v0, :cond_3
+
+    invoke-static {p0}, LX/3J7;->parseFromJson(LX/0oL;)LX/3J8;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_2
+
+    invoke-virtual {v6, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
+
+    goto :goto_2
+
+    :cond_3
+    iput-object v6, v5, LX/3YI;->A04:Ljava/util/List;
+
+    goto :goto_1
+
+    :cond_4
+    const-string v0, "icebreakers"
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_7
+
+    invoke-virtual {p0}, LX/0oL;->A0h()LX/0oP;
+
+    move-result-object v1
+
+    sget-object v0, LX/0oP;->A07:LX/0oP;
+
+    if-ne v1, v0, :cond_6
+
+    new-instance v6, Ljava/util/ArrayList;
+
+    invoke-direct {v6}, Ljava/util/ArrayList;-><init>()V
+
+    :cond_5
+    :goto_3
+    invoke-virtual {p0}, LX/0oL;->A0q()LX/0oP;
+
+    move-result-object v1
+
+    sget-object v0, LX/0oP;->A03:LX/0oP;
+
+    if-eq v1, v0, :cond_6
+
+    invoke-static {p0}, LX/6Mf;->parseFromJson(LX/0oL;)LX/6Mh;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_5
+
+    invoke-virtual {v6, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
+
+    goto :goto_3
+
+    :cond_6
+    iput-object v6, v5, LX/3YI;->A03:Ljava/util/List;
+
+    goto :goto_1
+
+    :cond_7
+    const-string v0, "reachability_statuses"
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_c
+
+    invoke-virtual {p0}, LX/0oL;->A0h()LX/0oP;
+
+    move-result-object v0
+
+    if-ne v0, v4, :cond_a
+
+    new-instance v3, Ljava/util/HashMap;
+
+    invoke-direct {v3}, Ljava/util/HashMap;-><init>()V
+
+    :cond_8
+    :goto_4
+    invoke-virtual {p0}, LX/0oL;->A0q()LX/0oP;
+
+    move-result-object v0
+
+    if-eq v0, v7, :cond_b
+
+    invoke-virtual {p0}, LX/0oL;->A0u()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {p0}, LX/0oL;->A0q()LX/0oP;
+
+    invoke-virtual {p0}, LX/0oL;->A0h()LX/0oP;
+
+    move-result-object v1
+
+    sget-object v0, LX/0oP;->A0B:LX/0oP;
+
+    if-ne v1, v0, :cond_9
+
+    invoke-virtual {v3, v2, v6}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    goto :goto_4
+
+    :cond_9
+    invoke-virtual {p0}, LX/0oL;->A0J()I
+
+    move-result v0
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_8
+
+    invoke-virtual {v3, v2, v0}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    goto :goto_4
+
+    :cond_a
+    move-object v3, v6
+
+    :cond_b
+    iput-object v3, v5, LX/3YI;->A02:Ljava/util/HashMap;
+
+    goto/16 :goto_1
+
+    :cond_c
+    const-string v0, "error"
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_d
+
+    invoke-static {p0}, Lcom/instagram/realtimeclient/DirectApiError__JsonHelper;->parseFromJson(LX/0oL;)Lcom/instagram/realtimeclient/DirectApiError;
+
+    move-result-object v0
+
+    iput-object v0, v5, LX/3YI;->A01:Lcom/instagram/realtimeclient/DirectApiError;
+
+    goto/16 :goto_1
+
+    :cond_d
+    invoke-static {v5, v1, p0}, LX/1RZ;->A01(LX/1IC;Ljava/lang/String;LX/0oL;)Z
+
+    goto/16 :goto_1
+
+    :cond_e
+    return-object v5
+.end method

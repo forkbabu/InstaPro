@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/gradient_background">
+        <shape android:shape="oval">
+            <gradient android:startColor="@color/igds_close_friends_gradient_start" android:endColor="@color/igds_close_friends_gradient_end" android:angle="-45.0" />
+            <stroke android:width="2.0dip" android:color="@color/igds_primary_background" />
+        </shape>
+    </item>
+    <item android:id="@id/collab_story_avatar_badge" android:left="10.0dip" android:top="10.0dip" android:right="10.0dip" android:bottom="10.0dip">
+        <bitmap android:src="@drawable/instagram_group_story_filled_24" android:tint="@color/white" />
+    </item>
+</layer-list>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/notification_content_layout_top_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/avatar" android:layout_width="@dimen/avatar_image_size" android:layout_height="@dimen/avatar_image_size" android:layout_marginTop="@dimen/avatar_and_media_thumbnail_top_margin" android:layout_marginEnd="@dimen/avatar_image_right_margin" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/notification_text_size" android:textStyle="bold" android:textColor="@color/igds_primary_text" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/notification_text_size" android:textColor="@color/igds_primary_text" android:ellipsize="end" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="2" />
+    </LinearLayout>
+    <ImageView android:id="@id/media_thumbnail" android:layout_width="@dimen/media_thumbnail_size" android:layout_height="@dimen/media_thumbnail_size" android:layout_marginTop="@dimen/avatar_and_media_thumbnail_top_margin" android:layout_marginStart="@dimen/media_thumbnail_left_margin" />
+</LinearLayout>

@@ -1,0 +1,594 @@
+.class public final LX/F4j;
+.super Landroidx/fragment/app/Fragment;
+.source ""
+
+# interfaces
+.implements LX/F78;
+
+
+# instance fields
+.field public A00:Landroid/widget/Button;
+
+.field public A01:Landroid/widget/Button;
+
+.field public A02:Landroid/widget/ImageView;
+
+.field public A03:Landroid/widget/TextView;
+
+.field public A04:Landroid/widget/TextView;
+
+.field public A05:Landroid/widget/TextView;
+
+.field public A06:Landroid/widget/TextView;
+
+.field public A07:Landroid/widget/TextView;
+
+.field public A08:Landroid/widget/TextView;
+
+.field public A09:LX/F3H;
+
+.field public A0A:LX/F65;
+
+.field public final A0B:[Landroid/widget/ImageView;
+
+.field public final A0C:[Landroid/widget/TextView;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    invoke-direct {p0}, Landroidx/fragment/app/Fragment;-><init>()V
+
+    const/4 v1, 0x2
+
+    new-array v0, v1, [Landroid/widget/TextView;
+
+    iput-object v0, p0, LX/F4j;->A0C:[Landroid/widget/TextView;
+
+    new-array v0, v1, [Landroid/widget/ImageView;
+
+    iput-object v0, p0, LX/F4j;->A0B:[Landroid/widget/ImageView;
+
+    return-void
+.end method
+
+.method public static A00(LX/F4j;Ljava/lang/String;)V
+    .locals 5
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireArguments()Landroid/os/Bundle;
+
+    move-result-object v1
+
+    const-string v0, "bottom_sheet_init_params"
+
+    invoke-virtual {v1, v0}, Landroid/os/Bundle;->getParcelable(Ljava/lang/String;)Landroid/os/Parcelable;
+
+    move-result-object v4
+
+    if-eqz v4, :cond_2
+
+    check-cast v4, Lcom/fbpay/connect/fragment/BottomSheetInitParams;
+
+    iget-object v0, p0, LX/F4j;->A09:LX/F3H;
+
+    iget-object v0, v0, LX/F3H;->A02:LX/1ck;
+
+    invoke-virtual {v0}, LX/1ck;->A02()Ljava/lang/Object;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_1
+
+    check-cast v0, LX/34X;
+
+    iget-object v1, v0, LX/34X;->A01:Ljava/lang/Object;
+
+    if-eqz v1, :cond_0
+
+    check-cast v1, LX/F0G;
+
+    new-instance v3, Ljava/util/HashMap;
+
+    invoke-direct {v3}, Ljava/util/HashMap;-><init>()V
+
+    new-instance v2, LX/34q;
+
+    invoke-direct {v2}, LX/34q;-><init>()V
+
+    iget-object v0, v4, Lcom/fbpay/connect/fragment/BottomSheetInitParams;->A03:Ljava/lang/String;
+
+    invoke-virtual {v2, v0}, LX/34q;->A00(Ljava/lang/String;)V
+
+    iget-object v0, v4, Lcom/fbpay/connect/fragment/BottomSheetInitParams;->A01:Ljava/lang/String;
+
+    iput-object v0, v2, LX/34q;->A02:Ljava/lang/String;
+
+    iget-object v0, v1, LX/F0G;->A01:Ljava/lang/String;
+
+    iput-object v0, v2, LX/34q;->A00:Ljava/lang/String;
+
+    new-instance v1, Lcom/fbpay/logging/FBPayLoggerData;
+
+    invoke-direct {v1, v2}, Lcom/fbpay/logging/FBPayLoggerData;-><init>(LX/34q;)V
+
+    const-string v0, "logger_data"
+
+    invoke-virtual {v3, v0, v1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    invoke-static {}, LX/1Ko;->A02()LX/34K;
+
+    move-result-object v0
+
+    iget-object v1, v0, LX/34K;->A02:LX/1LB;
+
+    invoke-static {v3}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
+
+    move-result-object v0
+
+    invoke-interface {v1, p1, v0}, LX/1LB;->AxS(Ljava/lang/String;Ljava/util/Map;)V
+
+    return-void
+
+    :cond_0
+    const/4 v0, 0x0
+
+    throw v0
+
+    :cond_1
+    const/4 v0, 0x0
+
+    throw v0
+
+    :cond_2
+    const/4 v0, 0x0
+
+    throw v0
+.end method
+
+
+# virtual methods
+.method public final A01(Ljava/lang/String;)LX/1ck;
+    .locals 6
+
+    iget-object v0, p0, LX/F4j;->A09:LX/F3H;
+
+    iget-object v0, v0, LX/F3H;->A01:Lcom/fbpay/connect/fragment/BottomSheetInitParams;
+
+    if-eqz v0, :cond_4
+
+    iget-object v2, v0, Lcom/fbpay/connect/fragment/BottomSheetInitParams;->A01:Ljava/lang/String;
+
+    if-eqz v2, :cond_3
+
+    invoke-static {}, LX/1Ko;->A01()LX/34U;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, LX/34U;->A00()LX/1Wx;
+
+    move-result-object v0
+
+    new-instance v1, LX/1Wy;
+
+    invoke-direct {v1, p0, v0}, LX/1Wy;-><init>(LX/00r;LX/1Wx;)V
+
+    const-class v0, LX/F3e;
+
+    invoke-virtual {v1, v0}, LX/1Wy;->A00(Ljava/lang/Class;)LX/1Wv;
+
+    move-result-object v5
+
+    check-cast v5, LX/F3e;
+
+    new-instance v1, LX/34q;
+
+    invoke-direct {v1}, LX/34q;-><init>()V
+
+    iput-object v2, v1, LX/34q;->A02:Ljava/lang/String;
+
+    iget-object v0, p0, LX/F4j;->A09:LX/F3H;
+
+    iget-object v0, v0, LX/F3H;->A01:Lcom/fbpay/connect/fragment/BottomSheetInitParams;
+
+    if-eqz v0, :cond_2
+
+    iget-object v0, v0, Lcom/fbpay/connect/fragment/BottomSheetInitParams;->A03:Ljava/lang/String;
+
+    invoke-virtual {v1, v0}, LX/34q;->A00(Ljava/lang/String;)V
+
+    new-instance v0, Lcom/fbpay/logging/FBPayLoggerData;
+
+    invoke-direct {v0, v1}, Lcom/fbpay/logging/FBPayLoggerData;-><init>(LX/34q;)V
+
+    iput-object v0, v5, LX/F3e;->A00:Lcom/fbpay/logging/FBPayLoggerData;
+
+    new-instance v4, Landroid/os/Bundle;
+
+    invoke-direct {v4}, Landroid/os/Bundle;-><init>()V
+
+    const-string v3, "BUNDLE_KEY_PAYMENT_TYPE"
+
+    invoke-virtual {v4, v3, v2}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+
+    if-eqz p1, :cond_1
+
+    const-string v2, "BUNDLE_KEY_PRIMARY_FLOW_TYPE"
+
+    invoke-virtual {v4, v2, p1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+
+    const-string v1, "CONFIRMATION_DIALOG"
+
+    const-string v0, "BUNDLE_KEY_PRIMARY_FLOW_STEP_TYPE"
+
+    invoke-virtual {v4, v0, v1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+
+    invoke-virtual {v4, v3}, Landroid/os/BaseBundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    invoke-virtual {v4, v2}, Landroid/os/BaseBundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    new-instance v2, LX/F2l;
+
+    invoke-direct {v2, v4}, LX/F2l;-><init>(Landroid/os/Bundle;)V
+
+    iget-object v1, v5, LX/F3e;->A01:LX/F2S;
+
+    iget-object v0, v5, LX/F3e;->A00:Lcom/fbpay/logging/FBPayLoggerData;
+
+    invoke-virtual {v1, v2, v0}, LX/F2S;->A04(LX/F2l;Lcom/fbpay/logging/FBPayLoggerData;)LX/1ck;
+
+    move-result-object v0
+
+    return-object v0
+
+    :cond_0
+    const-string v1, "The payment type and the primary flow type should not be null."
+
+    new-instance v0, Ljava/lang/IllegalArgumentException;
+
+    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+
+    :cond_1
+    const/4 v0, 0x0
+
+    throw v0
+
+    :cond_2
+    const/4 v0, 0x0
+
+    throw v0
+
+    :cond_3
+    const/4 v0, 0x0
+
+    throw v0
+
+    :cond_4
+    const/4 v0, 0x0
+
+    throw v0
+.end method
+
+.method public final BHe()V
+    .locals 1
+
+    const-string v0, "fbpay_connect_bottom_sheet_cancel"
+
+    invoke-static {p0, v0}, LX/F4j;->A00(LX/F4j;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public final onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    .locals 4
+
+    const v0, 0x59ed469c
+
+    invoke-static {v0}, LX/0iL;->A02(I)I
+
+    move-result v3
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
+
+    move-result-object v2
+
+    invoke-static {}, LX/1Ko;->A02()LX/34K;
+
+    move-result-object v0
+
+    iget v1, v0, LX/34K;->A00:I
+
+    new-instance v0, Landroid/view/ContextThemeWrapper;
+
+    invoke-direct {v0, v2, v1}, Landroid/view/ContextThemeWrapper;-><init>(Landroid/content/Context;I)V
+
+    invoke-virtual {p1, v0}, Landroid/view/LayoutInflater;->cloneInContext(Landroid/content/Context;)Landroid/view/LayoutInflater;
+
+    move-result-object v2
+
+    const v1, 0x7f0c033a
+
+    const/4 v0, 0x0
+
+    invoke-virtual {v2, v1, p2, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+
+    move-result-object v1
+
+    const v0, -0x3ee4335a
+
+    invoke-static {v0, v3}, LX/0iL;->A09(II)V
+
+    return-object v1
+.end method
+
+.method public final onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+    .locals 4
+
+    invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+
+    const v0, 0x7f090331
+
+    invoke-static {p1, v0}, LX/1ZP;->A03(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/TextView;
+
+    iput-object v0, p0, LX/F4j;->A08:Landroid/widget/TextView;
+
+    const v0, 0x7f090330
+
+    invoke-static {p1, v0}, LX/1ZP;->A03(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/TextView;
+
+    iput-object v0, p0, LX/F4j;->A07:Landroid/widget/TextView;
+
+    const v0, 0x7f09032e
+
+    invoke-static {p1, v0}, LX/1ZP;->A03(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/TextView;
+
+    iput-object v0, p0, LX/F4j;->A05:Landroid/widget/TextView;
+
+    const v0, 0x7f09032a
+
+    invoke-static {p1, v0}, LX/1ZP;->A03(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/TextView;
+
+    iput-object v0, p0, LX/F4j;->A03:Landroid/widget/TextView;
+
+    const v0, 0x7f09032b
+
+    invoke-static {p1, v0}, LX/1ZP;->A03(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/TextView;
+
+    iput-object v0, p0, LX/F4j;->A04:Landroid/widget/TextView;
+
+    iget-object v1, p0, LX/F4j;->A0C:[Landroid/widget/TextView;
+
+    const v0, 0x7f090326
+
+    invoke-static {p1, v0}, LX/1ZP;->A03(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v0
+
+    const/4 v3, 0x0
+
+    aput-object v0, v1, v3
+
+    const v0, 0x7f090325
+
+    invoke-static {p1, v0}, LX/1ZP;->A03(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/TextView;
+
+    iput-object v0, p0, LX/F4j;->A06:Landroid/widget/TextView;
+
+    const v0, 0x7f090353
+
+    invoke-static {p1, v0}, LX/1ZP;->A03(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v0
+
+    const/4 v2, 0x1
+
+    aput-object v0, v1, v2
+
+    const v0, 0x7f0917d1
+
+    invoke-static {p1, v0}, LX/1ZP;->A03(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/ImageView;
+
+    iput-object v0, p0, LX/F4j;->A02:Landroid/widget/ImageView;
+
+    iget-object v1, p0, LX/F4j;->A0B:[Landroid/widget/ImageView;
+
+    const v0, 0x7f0907a3
+
+    invoke-static {p1, v0}, LX/1ZP;->A03(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v0
+
+    aput-object v0, v1, v3
+
+    const v0, 0x7f091cfd
+
+    invoke-static {p1, v0}, LX/1ZP;->A03(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v0
+
+    aput-object v0, v1, v2
+
+    const v0, 0x7f09172b
+
+    invoke-static {p1, v0}, LX/1ZP;->A03(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/Button;
+
+    iput-object v0, p0, LX/F4j;->A00:Landroid/widget/Button;
+
+    const v0, 0x7f091cef
+
+    invoke-static {p1, v0}, LX/1ZP;->A03(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/Button;
+
+    iput-object v0, p0, LX/F4j;->A01:Landroid/widget/Button;
+
+    iget-object v1, p0, LX/F4j;->A00:Landroid/widget/Button;
+
+    new-instance v0, LX/F4e;
+
+    invoke-direct {v0, p0}, LX/F4e;-><init>(LX/F4j;)V
+
+    invoke-virtual {v1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    iget-object v1, p0, LX/F4j;->A01:Landroid/widget/Button;
+
+    new-instance v0, LX/F66;
+
+    invoke-direct {v0, p0}, LX/F66;-><init>(LX/F4j;)V
+
+    invoke-virtual {v1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    invoke-static {}, LX/1Ko;->A02()LX/34K;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, LX/34K;->A00()LX/1Wx;
+
+    move-result-object v0
+
+    new-instance v1, LX/1Wy;
+
+    invoke-direct {v1, p0, v0}, LX/1Wy;-><init>(LX/00r;LX/1Wx;)V
+
+    const-class v0, LX/F3H;
+
+    invoke-virtual {v1, v0}, LX/1Wy;->A00(Ljava/lang/Class;)LX/1Wv;
+
+    move-result-object v2
+
+    check-cast v2, LX/F3H;
+
+    iput-object v2, p0, LX/F4j;->A09:LX/F3H;
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireArguments()Landroid/os/Bundle;
+
+    move-result-object v1
+
+    const-string v0, "args can not be null!"
+
+    invoke-static {v1, v0}, LX/00f;->A01(Ljava/lang/Object;Ljava/lang/Object;)V
+
+    const-string v0, "bottom_sheet_init_params"
+
+    invoke-virtual {v1, v0}, Landroid/os/Bundle;->getParcelable(Ljava/lang/String;)Landroid/os/Parcelable;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_1
+
+    check-cast v0, Lcom/fbpay/connect/fragment/BottomSheetInitParams;
+
+    iput-object v0, v2, LX/F3H;->A01:Lcom/fbpay/connect/fragment/BottomSheetInitParams;
+
+    iget-object v1, p0, LX/F4j;->A09:LX/F3H;
+
+    iget-object v0, v1, LX/F3H;->A01:Lcom/fbpay/connect/fragment/BottomSheetInitParams;
+
+    if-eqz v0, :cond_0
+
+    iget-object v3, v1, LX/F3H;->A06:LX/1cj;
+
+    iget-object v2, v0, Lcom/fbpay/connect/fragment/BottomSheetInitParams;->A03:Ljava/lang/String;
+
+    iget-object v1, v0, Lcom/fbpay/connect/fragment/BottomSheetInitParams;->A01:Ljava/lang/String;
+
+    new-instance v0, LX/Ex3;
+
+    invoke-direct {v0, v2, v1}, LX/Ex3;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    invoke-virtual {v3, v0}, LX/1ck;->A0A(Ljava/lang/Object;)V
+
+    iget-object v0, p0, LX/F4j;->A09:LX/F3H;
+
+    iget-object v1, v0, LX/F3H;->A02:LX/1ck;
+
+    new-instance v0, LX/F4o;
+
+    invoke-direct {v0, p0}, LX/F4o;-><init>(LX/F4j;)V
+
+    invoke-virtual {v1, p0, v0}, LX/1ck;->A05(LX/00p;LX/1dr;)V
+
+    iget-object v0, p0, LX/F4j;->A09:LX/F3H;
+
+    iget-object v1, v0, LX/F3H;->A05:LX/1ck;
+
+    new-instance v0, LX/F57;
+
+    invoke-direct {v0, p0}, LX/F57;-><init>(LX/F4j;)V
+
+    invoke-virtual {v1, p0, v0}, LX/1ck;->A05(LX/00p;LX/1dr;)V
+
+    iget-object v0, p0, LX/F4j;->A09:LX/F3H;
+
+    iget-object v1, v0, LX/F3H;->A04:LX/1ck;
+
+    new-instance v0, LX/F4z;
+
+    invoke-direct {v0, p0}, LX/F4z;-><init>(LX/F4j;)V
+
+    invoke-virtual {v1, p0, v0}, LX/1ck;->A05(LX/00p;LX/1dr;)V
+
+    return-void
+
+    :cond_0
+    const/4 v0, 0x0
+
+    throw v0
+
+    :cond_1
+    const/4 v0, 0x0
+
+    throw v0
+.end method

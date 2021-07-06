@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="Advanced Settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:icon="@drawable/sam_gnrl" android:title="@string/theming_tito" android:key="chat_colors">
+        <PreferenceCategory android:title="Chating Screen" android:key="chating">
+            <X.ACPS android:title="@string/background_mod" android:key="background_color_picker" android:summary="@string/background_summary" android:defaultValue="@color/white" />
+            <ListPreference android:entries="@array/gradient_mode" android:title="@string/background_gradient_mode" android:key="background_gd_bg_mode" android:dependency="background_color_picker" android:defaultValue="0" android:entryValues="@array/gradient_values" />
+            <X.ACPS android:title="@string/header_gd_bg_picker" android:key="background_gd_bg_color_picker" android:dependency="background_color_picker" android:defaultValue="@color/white" />
+            <CheckBoxPreference android:title="@string/chatwallpp" android:key="chat_wallpp" android:defaultValue="false" />
+            <Preference android:title="@string/pincode_set_background_image" android:key="chat_wall_image" android:dependency="chat_wallpp" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <Preference android:icon="@drawable/sam_l" android:title="launcher Icons">
+        <intent android:targetPackage="com.instapro.android" android:targetClass="com.OM7753.gold.IconChoose" />
+    </Preference>
+    <Preference android:icon="@drawable/sam_2" android:title="Free NetFlix Premium Accounts">
+        <intent android:action="android.intent.action.VIEW" android:data="https://t.me/FreeProAccounts" />
+    </Preference>
+    <Preference android:icon="@drawable/sam_instagram" android:title="Follow Me On Instagram" android:summary="Sam Developer">
+        <intent android:action="android.intent.action.VIEW" android:data="https://www.instagram.com/sam_1431_/" />
+    </Preference>
+    <Preference android:icon="@drawable/sam_youtube" android:title="Subscribe My YouTube Channel" android:summary=" For Support Me">
+        <intent android:action="android.intent.action.VIEW" android:data="https://www.youtube.com/channel/UCDggZr3c2prJO0bMB5xSzYg" />
+    </Preference>
+    <Preference android:icon="@drawable/sam_telegram" android:title="Join Telegram Channel" android:summary="For More Cool Apps">
+        <intent android:action="android.intent.action.VIEW" android:data="https://t.me/sammods" />
+    </Preference>
+    <Preference android:icon="@drawable/sam_downloads" android:title="Update" android:summary="Check Update">
+        <intent android:action="android.intent.action.VIEW" android:data="https://www.instamod.net/2019/07/instagram-pro-dark.html" />
+    </Preference>
+    <Preference android:icon="@drawable/whats__app" android:title="Download GBWhatsApp Latest">
+        <intent android:action="android.intent.action.VIEW" android:data="https://www.whatsappmods.net/2019/05/gbwhatsapp-ban-prof.html" />
+    </Preference>
+    <Preference android:icon="@drawable/sam_user" android:title="Unsend Evil App" android:summary="Recover Instagram UnSend Messages">
+        <intent android:action="android.intent.action.VIEW" android:data="https://play.google.com/store/apps/details?id=com.evil.recovermessages" />
+    </Preference>
+    <Preference android:icon="@drawable/sam_instagram" android:title="Create Fake Instagram Chat" android:summary="FakeChat.net">
+        <intent android:action="android.intent.action.VIEW" android:data="http://fakechat.net/instagram.html" />
+    </Preference>
+    <Preference android:icon="@drawable/whats__app" android:title="SamMods Fun Messanger" android:summary="Create Full WhatsApp Fake Chats">
+        <intent android:action="android.intent.action.VIEW" android:data="https://www.samapkstore.com/2019/12/sammods-fun.html" />
+    </Preference>
+    <Preference android:icon="@drawable/sam_google_pay" android:title="UPI ID ➜  naeem9846@okaxis  " android:summary=" Donation For SamMods ( Google Pay ) Need Donation For Manging Servers">
+        <intent android:action="android.intent.action.VIEW" />
+    </Preference>
+    <Preference android:icon="@drawable/sam_instagram" android:title="Download InstaPro Multi Color" android:summary="Gold, Blue, Red, Pink, Green">
+        <intent android:action="android.intent.action.VIEW" android:data="https://www.instamod.net/2019/07/instagram-pro-dark.html?m=1" />
+    </Preference>
+    <PreferenceScreen android:icon="@drawable/sam_privcy_1" android:title="@string/settings_privacy" android:key="settings_privacy">
+        <CheckBoxPreference android:title="@string/hide_view_status" android:key="hide_view_status_check" android:summary="@string/hide_view_status_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/direct_unread" android:key="direct_unread" android:summary="@string/direct_unread_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/live_ghost" android:key="live_ghost_unread" android:summary="@string/live_ghost_sum" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/direct_typing" android:key="direct_typing" android:defaultValue="false" />
+    </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/sam_gnrl" android:title="@string/others" android:key="general_settings">
+        <CheckBoxPreference android:title="@string/max_quality_media" android:key="max_quality_media_check" android:summary="@string/max_quality_media_summary" android:defaultValue="true" />
+        <ListPreference android:entries="@array/translate_entries" android:title="@string/select_language" android:key="language_select" android:defaultValue="system" android:entryValues="@array/translate_values" />
+        <CheckBoxPreference android:title="@string/open_inapp" android:key="open_inapp" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/double_like" android:key="double_like" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/double_down" android:key="double_down" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/disable_shopping_items" android:key="disable_shopping_items" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/long_tap_zoom" android:key="long_tap_zoom" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/theme_ic" android:key="daynight_ic" android:summary="@string/theme_icsum" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/gb_disable_slide" android:key="gb_disable_slide_check" android:summary="@string/gb_disable_slide_Summary" android:defaultValue="false" />
+    </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/sam_follow" android:title="@string/followers_tracker" android:key="followers_tracker">
+        <CheckBoxPreference android:title="@string/enable_followers_tracker" android:key="enable_followers_tracker" android:defaultValue="false" />
+        <Preference android:title="@string/followers_set_interval" android:key="followers_set_interval" android:summary="@string/followers_set_interval_summary" />
+        <Preference android:title="@string/update_followers_list" android:key="update_followers_list" />
+        <Preference android:title="@string/unfollowers_list" android:key="unfollowers_list" />
+    </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/sam_settings" android:title="@string/service_settings" android:key="service_settings">
+        <CheckBoxPreference android:title="@string/disable_analytics" android:key="disable_analytics_check" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/gb_enable_logging" android:key="gb_enable_logging_check" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/disable_updates" android:key="disable_updates" android:defaultValue="false" />
+    </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/sam_fingerprint_gestures" android:title="@string/app_lock" android:key="app_lock">
+        <Preference android:title="@string/pincode_set" android:key="pincode_set" />
+        <Preference android:title="@string/pinchat_set" android:key="pinchat_set" />
+        <Preference android:title="@string/pincode_set_timeout" android:key="pincode_set_timeout" />
+        <Preference android:title="@string/pincode_set_background" android:key="pincode_set_background" />
+        <CheckBoxPreference android:title="@string/hide_content" android:key="hide_content" android:summary="@string/hide_content_summary" android:defaultValue="true" />
+    </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/sam_download2s" android:title="@string/download_settings" android:key="download_settings">
+        <Preference android:title="@string/download_folder" android:key="download_folder" />
+        <CheckBoxPreference android:title="@string/split_by_username" android:key="split_by_username" android:summary="@string/split_by_username_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/notifs_on" android:key="notifs_on" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/down_from_notif" android:key="down_from_notif" android:summary="@string/down_from_notif_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/inb_mod" android:key="inb_download" android:summary="@string/inb_summary" android:defaultValue="true" />
+    </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/sam_story" android:title="@string/settings_feed" android:key="settings_feed">
+        <CheckBoxPreference android:title="@string/btnrbnd_ic" android:key="ig_btn_rebrand_check" android:summary="@string/btnrbnd_icsum" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/disable_stories" android:key="disable_stories_check" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/remove_liked_posts" android:key="remove_liked_posts" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/disable_ads" android:key="disable_ads_check" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/suggested_users" android:key="gb_disable_suggested_users" android:summary="@string/suggested_users_sum" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/carousel_start" android:key="force_carousel_start" android:summary="@string/carousel_start_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/vdo_auto_play" android:key="auto_vidplay" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/sto_auto_play" android:key="story_vidplay" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/play_video_with_audio" android:key="play_video_with_audio_check" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/stories_sound" android:key="stories_sound" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/stories_autoplay_off" android:key="stories_autoplay_off" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/stories_remove_cap" android:key="stories_remove_cap" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/stories_no_crop" android:key="stories_no_crop" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/photo_qut" android:key="max_photo_quality" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/reels_video_qut" android:key="reel_max_bitrate" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/stories_fullscreen" android:key="stories_fullscreen" android:summary="@string/may_not_work" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/simple_anim" android:key="simple_anim" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/max_video_bitrate" android:key="max_video_bitrate" android:summary="@string/max_video_bitrate_summary" android:defaultValue="true" />
+    </PreferenceScreen>
+    <Preference android:icon="@drawable/sam_frnd" android:title="@string/Thanks" android:key="Thanks" />
+    <Preference android:icon="@drawable/sam_paypal" android:title="@string/donate_mod" android:key="donate_mod" />
+    <Preference android:icon="@drawable/Sam_yber__ghost" android:title="@string/about_mod" android:key="about_mod" />
+    <PreferenceScreen android:icon="@drawable/sam_backup_restore" android:title="@string/settings_backup" android:key="settings_backup">
+        <Preference android:title="@string/save" android:key="save_backup" />
+        <Preference android:title="@string/restore_backup" android:key="restore_backup" />
+    </PreferenceScreen>
+</PreferenceScreen>

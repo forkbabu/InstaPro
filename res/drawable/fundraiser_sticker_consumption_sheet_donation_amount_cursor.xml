@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:width="@dimen/fundraiser_sticker_currency_amount_selector_standalone_cursor_width" />
+    <solid android:color="@color/igds_stroke" />
+    <corners android:radius="@dimen/fundraiser_sticker_currency_amount_selector_standalone_cursor_corner_radius" />
+    <padding android:left="@dimen/fundraiser_sticker_currency_amount_selector_standalone_cursor_left_padding" android:top="@dimen/fundraiser_sticker_currency_amount_selector_standalone_cursor_top_padding" android:bottom="@dimen/fundraiser_sticker_currency_amount_selector_standalone_cursor_bottom_padding" />
+</shape>

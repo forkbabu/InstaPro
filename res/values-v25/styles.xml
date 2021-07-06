@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CanvasPromptInputEditText">
+        <item name="android:textSize">@dimen/canvas_text_view_input_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/canvas_text_view_with_header_text_color</item>
+        <item name="android:textColorHint">@color/canvas_text_view_with_header_text_hint_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/canvas_text_view_background</item>
+        <item name="android:layout_width">@dimen/canvas_text_view_input_background_width</item>
+        <item name="android:layout_height">@dimen/canvas_text_view_input_background_height</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:inputType">textNoSuggestions</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:paddingStart">@dimen/canvas_text_view_horizontal_inner_padding</item>
+        <item name="android:paddingEnd">@dimen/canvas_text_view_horizontal_inner_padding</item>
+        <item name="android:contextDescription">@string/active_canvas_element_text_view_description</item>
+    </style>
+    <style name="Platform.AppCompat" parent="@style/Platform.V25.AppCompat" />
+    <style name="Platform.AppCompat.Light" parent="@style/Platform.V25.AppCompat.Light" />
+    <style name="Platform.V25.AppCompat" parent="@android:style/Theme.Material.NoActionBar" />
+    <style name="Platform.V25.AppCompat.Light" parent="@android:style/Theme.Material.Light.NoActionBar" />
+</resources>

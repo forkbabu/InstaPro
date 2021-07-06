@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.common.messagingui.observableverticaloffsetlayout.ObservableVerticalOffsetFrameLayout android:orientation="vertical" android:id="@id/message_content" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/sender_avatar_stub" />
+    <include layout="@layout/thread_list_message_metadata" />
+    <LinearLayout android:id="@id/message_content_horizontal_linear_layout" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="?avatarStartSpacing" android:layout_marginRight="?containerMarginEnd" android:layout_marginStart="?avatarStartSpacing" android:layout_marginEnd="?containerMarginEnd">
+        <LinearLayout android:orientation="vertical" android:id="@id/message_content_vertical_linear_layout" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <include android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/header_label_stub" />
+            <LinearLayout android:orientation="vertical" android:id="@id/message_placeholder_container" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <View android:id="@id/main_content_definition_placeholder" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <include layout="@layout/reactions_stub" />
+                <include android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/direct_reactions_pill_start_margin" android:layout_marginTop="@dimen/direct_reactions_pill_top_margin" android:layout_marginStart="@dimen/direct_reactions_pill_start_margin" layout="@layout/message_reactions_pill_stub" />
+                <X.AX6S android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+            </LinearLayout>
+            <include layout="@layout/footer_label_stub" />
+        </LinearLayout>
+        <include android:layout_gravity="center_vertical" android:layout_width="@dimen/direct_forwarding_shortcut_size" android:layout_height="@dimen/direct_forwarding_shortcut_size" android:layout_marginStart="@dimen/direct_forwarding_shortcut_margin" android:layout_marginEnd="@dimen/direct_forwarding_shortcut_margin" layout="@layout/forwarding_shortcut_stub" />
+    </LinearLayout>
+</com.facebook.common.messagingui.observableverticaloffsetlayout.ObservableVerticalOffsetFrameLayout>

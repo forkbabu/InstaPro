@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/question_sticker_background" />
+            <corners android:radius="@dimen/canvas_question_response_card_corner_radius" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/question_sticker_background" />
+            <corners android:radius="@dimen/canvas_question_response_card_corner_radius" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/instagram_carousel_outline_16" android:id="@id/gallery_menu_select_multiple" android:title="@string/gallery_menu_select_multiple" android:contentDescription="@string/gallery_select_multiple_content_description" />
+    <item android:icon="@drawable/instagram_user_circle_outline_16" android:id="@id/gallery_menu_use_in_green_screen" android:title="@string/gallery_menu_green_screen" android:contentDescription="@string/gallery_green_screen_content_description" />
+    <item android:icon="@drawable/instagram_layout_outline_16" android:id="@id/gallery_menu_add_to_layout" android:title="@string/gallery_menu_add_to_layout" android:contentDescription="@string/gallery_layout_content_description" />
+</menu>

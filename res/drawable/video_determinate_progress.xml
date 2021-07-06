@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape android:shape="ring" android:useLevel="false" android:innerRadius="@dimen/video_progress_spinner_inner_radius" android:thickness="@dimen/video_progress_spinner_thickness">
+            <solid android:color="@color/white_10_transparent" />
+            <size android:height="@dimen/video_progress_spinner_size" android:width="@dimen/video_progress_spinner_size" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <shape android:shape="ring" android:useLevel="true" android:innerRadius="@dimen/video_progress_spinner_inner_radius" android:thickness="@dimen/video_progress_spinner_thickness">
+            <solid android:color="@color/white" />
+            <size android:height="@dimen/video_progress_spinner_size" android:width="@dimen/video_progress_spinner_size" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/grey_0" />
+            <corners android:topLeftRadius="@dimen/iab_chrome_top_radius" android:topRightRadius="@dimen/iab_chrome_top_radius" />
+        </shape>
+    </item>
+</layer-list>

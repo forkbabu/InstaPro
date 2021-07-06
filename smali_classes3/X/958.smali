@@ -1,0 +1,80 @@
+.class public final LX/958;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# instance fields
+.field public final synthetic A00:LX/1vf;
+
+.field public final synthetic A01:LX/956;
+
+.field public final synthetic A02:LX/1nf;
+
+.field public final synthetic A03:LX/1fr;
+
+.field public final synthetic A04:LX/2DS;
+
+
+# direct methods
+.method public constructor <init>(LX/1vf;LX/1nf;LX/2DS;LX/956;LX/1fr;)V
+    .locals 0
+
+    iput-object p1, p0, LX/958;->A00:LX/1vf;
+
+    iput-object p2, p0, LX/958;->A02:LX/1nf;
+
+    iput-object p3, p0, LX/958;->A04:LX/2DS;
+
+    iput-object p4, p0, LX/958;->A01:LX/956;
+
+    iput-object p5, p0, LX/958;->A03:LX/1fr;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .locals 10
+
+    const v0, 0x736a5398
+
+    invoke-static {v0}, LX/0iL;->A05(I)I
+
+    move-result v1
+
+    iget-object v2, p0, LX/958;->A00:LX/1vf;
+
+    iget-object v3, p0, LX/958;->A02:LX/1nf;
+
+    iget-object v4, p0, LX/958;->A04:LX/2DS;
+
+    iget-object v0, p0, LX/958;->A01:LX/956;
+
+    iget-object v5, v0, LX/956;->A03:Landroid/widget/TextView;
+
+    iget-object v0, p0, LX/958;->A03:LX/1fr;
+
+    invoke-interface {v0}, LX/0U9;->getModuleName()Ljava/lang/String;
+
+    move-result-object v6
+
+    const/4 v7, 0x0
+
+    move-object v8, v7
+
+    move-object v9, v7
+
+    invoke-interface/range {v2 .. v9}, LX/1vf;->BbR(LX/1nf;LX/2DS;Landroid/view/View;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
+    const v0, 0x2fa17c38
+
+    invoke-static {v0, v1}, LX/0iL;->A0C(II)V
+
+    return-void
+.end method

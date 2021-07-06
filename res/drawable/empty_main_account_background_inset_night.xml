@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:drawable="@color/black" android:insetLeft="@dimen/child_account_adapter_horizontal_margin" android:insetRight="@dimen/child_account_adapter_horizontal_margin" android:insetTop="@dimen/child_account_adapter_vertical_margin" android:insetBottom="@dimen/child_account_adapter_vertical_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/igds_tertiary_text" />
+            <size android:height="@dimen/direct_poll_message_option_remove_button_circle_size" android:width="@dimen/direct_poll_message_option_remove_button_circle_size" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:id="@id/icon" android:left="@dimen/direct_poll_message_option_remove_button_padding" android:top="@dimen/direct_poll_message_option_remove_button_padding" android:right="@dimen/direct_poll_message_option_remove_button_padding" android:bottom="@dimen/direct_poll_message_option_remove_button_padding">
+        <bitmap android:src="@drawable/instagram_x_outline_12" android:tint="@color/igds_primary_background" />
+    </item>
+</layer-list>

@@ -1,0 +1,39 @@
+.class public final LX/ATm;
+.super Ljava/lang/Object;
+.source ""
+
+
+# instance fields
+.field public A00:I
+
+.field public A01:Lcom/instagram/model/shopping/Merchant;
+
+.field public A02:Ljava/lang/String;
+
+.field public A03:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public constructor <init>(Lcom/instagram/model/shopping/Merchant;ILjava/lang/String;Ljava/lang/String;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, LX/ATm;->A01:Lcom/instagram/model/shopping/Merchant;
+
+    iput p2, p0, LX/ATm;->A00:I
+
+    iput-object p3, p0, LX/ATm;->A02:Ljava/lang/String;
+
+    iput-object p4, p0, LX/ATm;->A03:Ljava/lang/String;
+
+    return-void
+.end method

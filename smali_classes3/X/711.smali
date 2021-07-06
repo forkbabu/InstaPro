@@ -1,0 +1,51 @@
+.class public final LX/711;
+.super Ljava/lang/Object;
+.source ""
+
+
+# instance fields
+.field public final A00:Landroid/widget/TextView;
+
+.field public final A01:Lcom/instagram/common/ui/widget/imageview/CircularImageView;
+
+.field public final A02:Lcom/instagram/igds/components/switchbutton/IgSwitch;
+
+
+# direct methods
+.method public constructor <init>(Landroid/view/ViewGroup;)V
+    .locals 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const v0, 0x7f091c39
+
+    invoke-static {p1, v0}, LX/1ZP;->A03(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/instagram/common/ui/widget/imageview/CircularImageView;
+
+    iput-object v0, p0, LX/711;->A01:Lcom/instagram/common/ui/widget/imageview/CircularImageView;
+
+    const v0, 0x7f091c51
+
+    invoke-static {p1, v0}, LX/1ZP;->A03(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/TextView;
+
+    iput-object v0, p0, LX/711;->A00:Landroid/widget/TextView;
+
+    const v0, 0x7f090b8f
+
+    invoke-static {p1, v0}, LX/1ZP;->A03(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/instagram/igds/components/switchbutton/IgSwitch;
+
+    iput-object v0, p0, LX/711;->A02:Lcom/instagram/igds/components/switchbutton/IgSwitch;
+
+    return-void
+.end method

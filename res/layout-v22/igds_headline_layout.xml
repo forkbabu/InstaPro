@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:layout_gravity="center_horizontal" android:id="@id/igds_headline_color_filter_image_viewstub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" />
+    <ViewStub android:layout_gravity="center_horizontal" android:id="@id/igds_headline_circular_image_viewstub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" />
+    <ViewStub android:layout_gravity="center_horizontal" android:id="@id/igds_headline_url_image_viewstub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" />
+    <ViewStub android:layout_gravity="center_horizontal" android:id="@id/igds_headline_facepile_viewstub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" />
+    <com.instagram.common.ui.base.IgTextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/igds_headline_headline" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:breakStrategy="balanced" style="@style/igds_emphasized_title_panorama" />
+    <com.instagram.common.ui.base.IgTextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/igds_headline_emphasized_headline" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:breakStrategy="balanced" style="@style/igds_headline_2_panorama" />
+    <com.instagram.common.ui.base.IgTextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/igds_headline_body" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" style="@style/igds_body_1" />
+    <com.instagram.common.ui.base.IgTextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/igds_headline_supporting_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" style="@style/igds_body_2" />
+    <com.instagram.common.ui.base.IgTextView android:textColor="@color/igds_primary_button" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/igds_headline_link" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" style="@style/igds_emphasized_body_1" />
+</merge>

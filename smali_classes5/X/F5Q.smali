@@ -1,0 +1,90 @@
+.class public final LX/F5Q;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements LX/20J;
+
+
+# instance fields
+.field public final synthetic A00:LX/F4u;
+
+
+# direct methods
+.method public constructor <init>(LX/F4u;)V
+    .locals 0
+
+    iput-object p1, p0, LX/F5Q;->A00:LX/F4u;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final A61(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 2
+
+    check-cast p1, LX/34X;
+
+    invoke-static {p1}, LX/34X;->A0A(LX/34X;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-static {p1}, LX/34X;->A06(LX/34X;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, LX/F3t;
+
+    iget-object v1, v0, LX/F3t;->A00:Ljava/lang/String;
+
+    const-string v0, "ACTIVE"
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+
+    move-result v0
+
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/34X;->A04(Ljava/lang/Object;)LX/34X;
+
+    move-result-object v0
+
+    return-object v0
+
+    :cond_0
+    invoke-static {p1}, LX/34X;->A08(LX/34X;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    iget-object v1, p1, LX/34X;->A02:Ljava/lang/Throwable;
+
+    const/4 v0, 0x0
+
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v0
+
+    invoke-static {v1, v0}, LX/34X;->A05(Ljava/lang/Throwable;Ljava/lang/Object;)LX/34X;
+
+    move-result-object v0
+
+    return-object v0
+
+    :cond_1
+    sget-object v0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
+
+    invoke-static {v0}, LX/34X;->A03(Ljava/lang/Object;)LX/34X;
+
+    move-result-object v0
+
+    return-object v0
+.end method

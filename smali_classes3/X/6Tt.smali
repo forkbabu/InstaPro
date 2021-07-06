@@ -1,0 +1,92 @@
+.class public final LX/6Tt;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements LX/1bh;
+
+
+# instance fields
+.field public final synthetic A00:Lcom/instagram/profile/fragment/UserDetailFragment;
+
+
+# direct methods
+.method public constructor <init>(Lcom/instagram/profile/fragment/UserDetailFragment;)V
+    .locals 0
+
+    iput-object p1, p0, LX/6Tt;->A00:Lcom/instagram/profile/fragment/UserDetailFragment;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final bridge synthetic A2a(Ljava/lang/Object;)Z
+    .locals 2
+
+    check-cast p1, LX/45C;
+
+    iget-object v1, p1, LX/45C;->A00:Ljava/lang/String;
+
+    iget-object v0, p0, LX/6Tt;->A00:Lcom/instagram/profile/fragment/UserDetailFragment;
+
+    invoke-virtual {v0}, Lcom/instagram/profile/fragment/UserDetailFragment;->A0K()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public final bridge synthetic onEvent(Ljava/lang/Object;)V
+    .locals 4
+
+    const v0, -0x1db04f30
+
+    invoke-static {v0}, LX/0iL;->A03(I)I
+
+    move-result v3
+
+    const v0, -0x5a70cff9
+
+    invoke-static {v0}, LX/0iL;->A03(I)I
+
+    move-result v2
+
+    iget-object v1, p0, LX/6Tt;->A00:Lcom/instagram/profile/fragment/UserDetailFragment;
+
+    invoke-virtual {v1}, Landroidx/fragment/app/Fragment;->isResumed()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v1}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    invoke-static {v1, v0}, Lcom/instagram/profile/fragment/UserDetailFragment;->A0A(Lcom/instagram/profile/fragment/UserDetailFragment;Landroid/content/Context;)V
+
+    :goto_0
+    const v0, -0x58f61919
+
+    invoke-static {v0, v2}, LX/0iL;->A0A(II)V
+
+    const v0, -0x2ac07d5a
+
+    invoke-static {v0, v3}, LX/0iL;->A0A(II)V
+
+    return-void
+
+    :cond_0
+    const/4 v0, 0x1
+
+    iput-boolean v0, v1, Lcom/instagram/profile/fragment/UserDetailFragment;->A1N:Z
+
+    goto :goto_0
+.end method
